@@ -7,7 +7,7 @@ categories:
 - blog
 - Linux Day
 - Eventi
-img: post01.jpg
+img: ld2014.jpg
 thumb: thumb01.jpg
 ---
 
@@ -16,11 +16,14 @@ Sono partiti i preparativi per il Linux Day 2014 Irpino. <!--more-->
 
 Questo il programma provvisorio:
 
-1. 09:30 "Saluti istituzionali", Assessore alla Cultura di Mercogliano
+1. 09:30 "Saluti istituzionali"
 2. 09:45 "Benvenuto ed introduzione al software libero", Gennaro Ragucci
 3. 10:45 "Le libertà digitali", Maria Luce Mariniello
 4. 12:00 "Un'esperienza di utilizzo di Linux nella didattica di sostegno presso l'IC Mercogliano", Elena Larkova
-5. 12:30-14:00 Break
+5. 12:30 - 14:00 Break
 6. 14:00 "Bitcon e l'evoluzione delle criptomonete", Cosimo Guglielmucci
 7. 15:00 "Elasticsearch", Patrick Guido Arminio
 8. 16:00 "Introduzione ad AngularJS", Luigi De Rosa
+9. 17:00 Intervento di un allievo meritevole dell'ITIS Dorso di Avellino sull'uso di software libero
+
+L'evento si terrà presso l'Aula Magna dell'Istituto Comprensivo "Mercogliano" in via Roma a Mercogliano (AV).
