@@ -27,3 +27,5 @@ Questo il programma provvisorio:
 9. 17:00 Intervento di un allievo meritevole dell'ITIS Dorso di Avellino sull'uso di software libero
 
 L'evento si terrà presso l'Aula Magna dell'Istituto Comprensivo "Mercogliano" in via Roma a Mercogliano (AV).
+
+La data dell'evento è quella di tutti gli altri Linux Day italiani, sabato 25 ottobre 2014.
