@@ -12,20 +12,31 @@ thumb: thumb01.jpg
 ---
 
 
-Sono partiti i preparativi per il Linux Day 2014 Irpino. <!--more-->
+Linux Day 2014 Irpino. <!--more-->
 
-Questo il programma provvisorio:
+Sabato 25 ottobre, dalle ore 9:30 alle ore 18, Mercogliano ospita, per la prima volta, gli appassionati della cultura digitale libera. La manifestazione denominata "Linux Day" si svolge, sin dal 2004, in numerose località d'Italia ed è organizzata dai Linux user group locali. Quest'anno l'evento irpino,  organizzato da IrLUG (Irpinia Linux User Group) è patrocinato dal Comune di Mercogliano. L'appuntamento per gli appassionati del mondo dell'informatica è ospitato presso l'Aula Magna dell'Istituto Comprensivo “Mercogliano” (scuola media) a via Romirio Marcone.
 
-1. 09:30 "Saluti istituzionali"
-2. 09:45 "Benvenuto ed introduzione al software libero", Gennaro Ragucci
-3. 10:45 "Le libertà digitali", Maria Luce Mariniello
-4. 12:00 "Un'esperienza di utilizzo di Linux nella didattica di sostegno presso l'IC Mercogliano", Elena Larkova
-5. 12:30 - 14:00 Break
-6. 14:00 "Bitcon e l'evoluzione delle criptomonete", Cosimo Guglielmucci
-7. 15:00 "Elasticsearch", Patrick Guido Arminio
-8. 16:00 "Introduzione ad AngularJS", Luigi De Rosa
-9. 17:00 Intervento di un allievo meritevole dell'ITIS Dorso di Avellino sull'uso di software libero
+La partecipazione è gratuita. Il programma degli interventi si articola in una parte generalista che occupa la mattinata e in una parte di approfondimento tecnico pomeridiana.
 
-L'evento si terrà presso l'Aula Magna dell'Istituto Comprensivo "Mercogliano" in via Roma a Mercogliano (AV).
+L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo spesso conosciuto solo dagli specialisti e tecnici del settore.
 
-La data dell'evento è quella di tutti gli altri Linux Day italiani, sabato 25 ottobre 2014.
+
+09:30 "Saluti istituzionali", Preside Maria Goretti Oliviero, Sindaco Massimiliano Carullo, Assessore alla P.I. Lucia Sbrescia
+
+09:45 "Benvenuto ed introduzione al software libero", Gennaro Ragucci
+
+10:45 "Le libertà digitali", Maria Luce Mariniello
+
+12:00 "Un'esperienza di utilizzo di Linux nella didattica di sostegno presso l'IC Mercogliano", Elena Larkova
+
+12:30-14:00 Break
+
+14:00 "Bitcon e le criptomonete 2.0", Cosimo Guglielmucci
+
+14:45 "Il search engine: Elasticsearch", Patrick Guido Arminio
+
+15:30 "Introduzione ad AngularJS", Luigi De Rosa
+
+16:15 Intervento di un alunno dell'ITIS Dorso sull'uso di software libero
+
+16:45 "Linux come firewall/router, proxy e domain controller", Gioacchino Rocco
