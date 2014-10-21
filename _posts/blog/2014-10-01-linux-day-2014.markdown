@@ -40,3 +40,6 @@ L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo 
 16:15 Intervento di un alunno dell'ITIS Dorso sull'uso di software libero
 
 16:45 "Linux come firewall/router, proxy e domain controller", Gioacchino Rocco
+
+17:15 "CMS Open Source", Andrea Pastore
+
