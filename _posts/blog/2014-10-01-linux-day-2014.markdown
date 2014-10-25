@@ -14,7 +14,7 @@ thumb: thumb01.jpg
 
 Linux Day 2014 Irpino. <!--more-->
 
-Sabato 25 ottobre, dalle ore 9:30 alle ore 18, Mercogliano ospita, per la prima volta, gli appassionati della cultura digitale libera. La manifestazione denominata "Linux Day" si svolge, sin dal 2004, in numerose località d'Italia ed è organizzata dai Linux user group locali. Quest'anno l'evento irpino,  organizzato da IrLUG (Irpinia Linux User Group) è patrocinato dal Comune di Mercogliano. L'appuntamento per gli appassionati del mondo dell'informatica è ospitato presso l'Aula Magna dell'Istituto Comprensivo “Mercogliano” (scuola media) a via Romirio Marcone.
+Sabato 25 ottobre, dalle ore 9:30 alle ore 18, Mercogliano ospita, per la prima volta, gli appassionati della cultura digitale libera. La manifestazione denominata "Linux Day" si svolge, sin dal 2004, in numerose località d'Italia ed è organizzata dai Linux user group locali. Quest'anno l'evento irpino,  organizzato da IrLUG (Irpinia Linux User Group) è patrocinato dal Comune di Mercogliano. L'appuntamento per gli appassionati del mondo dell'informatica è ospitato presso l'Aula Magna dell'Istituto Comprensivo “Mercogliano” (scuola media) a via Ramiro Marconi.
 
 La partecipazione è gratuita. Il programma degli interventi si articola in una parte generalista che occupa la mattinata e in una parte di approfondimento tecnico pomeridiana.
 
