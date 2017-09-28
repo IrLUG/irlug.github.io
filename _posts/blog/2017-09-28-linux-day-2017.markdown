@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Linux Day 2017"
+date: 2017-09-28 09:00:00
+author: Marco
+categories:
+- blog
+- Linux Day
+- Eventi
+img: ld2014.jpg
+thumb: thumb01.jpg
+---
+
+Linux Day 2017 Irpino.
+
+Sabato 25 ottobre, dalle ore 16:00 alle ore 19:00, il Tilt ospiterà tutti gli appassionati della cultura digitale libera.
+<!--more-->
+La manifestazione, denominata "Linux Day", si svolge sin dal 2004, in numerose località d'Italia ed è organizzata
+dai Linux user group locali.
+L'appuntamento per gli appassionati del mondo dell'informatica è presso il [Tilt in Strada Comunale Santo Spirito, 8-16, 83100 Avellino AV](https://goo.gl/maps/C3EJep8L52k)
+
+La partecipazione è gratuita ed il programma degli interventi si focalizzerà sul tema della privacy.
+
+L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo spesso conosciuto solo dagli specialisti e tecnici del settore.
+
+Il programma sarà pubblicato a breve
