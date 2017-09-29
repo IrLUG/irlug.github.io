@@ -1,30 +1,144 @@
----
-layout: none
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>IrLUG</title>
+    <description>irLUG. Irpinia Linux User Group.</description>
+    <link>http://www.irlug.it/</link>
+    <atom:link href="http://www.irlug.it/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 29 Sep 2017 10:43:09 +0200</pubDate>
+    <lastBuildDate>Fri, 29 Sep 2017 10:43:09 +0200</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
+    
       <item>
-        <title>{{ post.categories.first | capitalize }}: {{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Blog: Linux Day 2017</title>
+        <description>&lt;p&gt;Linux Day 2017 Irpino.&lt;/p&gt;
+
+&lt;p&gt;Sabato 25 ottobre, dalle ore 16:00 alle ore 19:00, il Tilt ospiterà tutti gli appassionati della cultura digitale libera.
+&lt;!--more--&gt;
+La manifestazione, denominata “Linux Day”, si svolge sin dal 2004, in numerose località d’Italia ed è organizzata
+dai Linux user group locali.
+L’appuntamento per gli appassionati del mondo dell’informatica è presso il &lt;a href=&quot;https://goo.gl/maps/C3EJep8L52k&quot;&gt;Tilt in Strada Comunale Santo Spirito, 8-16, 83100 Avellino AV&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;La partecipazione è gratuita ed il programma degli interventi si focalizzerà sul tema della privacy.&lt;/p&gt;
+
+&lt;p&gt;L’iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo spesso conosciuto solo dagli specialisti e tecnici del settore.&lt;/p&gt;
+
+&lt;p&gt;Il programma sarà pubblicato a breve&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Sep 2017 11:00:00 +0200</pubDate>
+        <link>http://www.irlug.it/blog/linux%20day/eventi/linux-day-2017</link>
+        <guid isPermaLink="true">http://www.irlug.it/blog/linux%20day/eventi/linux-day-2017</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>Linux Day</category>
+        
+        <category>Eventi</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Blog: Arduino Day 2015</title>
+        <description>&lt;p&gt;Sabato 28 Marzo 2015, dalle ore 16 alle 20, l’associazione culturale IrLUG (Irpinia Linux User Group) organizza ad Avellino per la prima volta l’ Arduino Day presso il complesso monumentale dell’ Ex Carcere Borbonico.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;La manifestazione è la celebrazione mondiale del compleanno di Arduino (&lt;a href=&quot;http://www.arduino.cc&quot;&gt;http://www.arduino.cc&lt;/a&gt;), la famosa scheda di prototipazione open hardware e software che ha radici in particolare italiane. L’importanza di Arduino consiste nel fatto di aver generato, intorno a sè, un ecosistema che ha reso relativamente semplice ed economico creare nuovi oggetti digitali che prima potevano essere progettati e realizzati solo nei comparti di ricerca e sviluppo aziendali. L’evento locale di Avellino vuole essere un punto di riferimento per tutti gli appassionati del mondo del Making e dell’Elettronica, campani e non.&lt;/p&gt;
+
+&lt;p&gt;Di seguito il programma completo:&lt;/p&gt;
+
+&lt;dl&gt;
+    &lt;dt&gt;Benvenuto ed Introduzione&lt;/dt&gt;
+    &lt;dd&gt;Gennaro Ragucci&lt;/dd&gt;
+
+    &lt;dt&gt;AIRQino: Un nuovo shield ARDUINO per la misura della qualità dell'aria&lt;/dt&gt;
+    &lt;dd&gt;Andrea Esposito&lt;/dd&gt;
+
+    &lt;dt&gt;Arduino: uno strumento didattico per l'educazione al pensiero computazionale&lt;/dt&gt;
+    &lt;dd&gt;Mauro D’Angelo (Perlatecnica)&lt;/dd&gt;
+
+    &lt;dt&gt;DOMOHOUSE&lt;/dt&gt;
+    &lt;dd&gt;Pasquale Nocera &amp;amp; Pio Francesco Armenante (ITIS G. Marconi)&lt;/dd&gt;
+
+    &lt;dt&gt;Arduino e stampa 3D - Le nuove frontiere della robotica homemade&lt;/dt&gt;
+    &lt;dd&gt;Open Makers Italy&lt;/dd&gt;
+
+    &lt;dt&gt;IoT and RealSense, the Intel Vision&lt;/dt&gt;
+    &lt;dd&gt;Fabrizio Lapiello&lt;/dd&gt;
+
+    &lt;dt&gt;Bluetooth Stereo Hacking&lt;/dt&gt;
+    &lt;dd&gt;Gaetano Pila&lt;/dd&gt;
+
+    &lt;dt&gt;Internet delle cose con Hardware e Software OpenSource&lt;/dt&gt;
+    &lt;dd&gt;Gerardo Di Iorio&lt;/dd&gt;
+
+    &lt;dt&gt;Ardux: un robot didattico orientato agli oggetti basato su schede Arduino e Raspberry pi&lt;/dt&gt;
+    &lt;dd&gt;Marcarelli Gianfranco&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;L’iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo spesso conosciuto solo dagli specialisti e tecnici del settore.&lt;/p&gt;
+
+&lt;p&gt;Per maggiori informazioni sull’evento: &lt;a href=&quot;http://arduino.irlug.it&quot;&gt;http://arduino.irlug.it&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Mar 2015 19:00:00 +0100</pubDate>
+        <link>http://www.irlug.it/blog/arduino%20day/eventi/arduino-day-2015</link>
+        <guid isPermaLink="true">http://www.irlug.it/blog/arduino%20day/eventi/arduino-day-2015</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>Arduino Day</category>
+        
+        <category>Eventi</category>
+        
+      </item>
+    
+      <item>
+        <title>Blog: Linux Day 2014</title>
+        <description>&lt;p&gt;Linux Day 2014 Irpino. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Sabato 25 ottobre, dalle ore 9:30 alle ore 18, Mercogliano ospita, per la prima volta, gli appassionati della cultura digitale libera. La manifestazione denominata “Linux Day” si svolge, sin dal 2004, in numerose località d’Italia ed è organizzata dai Linux user group locali. Quest’anno l’evento irpino,  organizzato da IrLUG (Irpinia Linux User Group) è patrocinato dal Comune di Mercogliano. L’appuntamento per gli appassionati del mondo dell’informatica è ospitato presso l’Aula Magna dell’Istituto Comprensivo “Mercogliano” (scuola media) a via Ramiro Marconi.&lt;/p&gt;
+
+&lt;p&gt;La partecipazione è gratuita. Il programma degli interventi si articola in una parte generalista che occupa la mattinata e in una parte di approfondimento tecnico pomeridiana.&lt;/p&gt;
+
+&lt;p&gt;L’iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo spesso conosciuto solo dagli specialisti e tecnici del settore.&lt;/p&gt;
+
+&lt;p&gt;09:30 “Saluti istituzionali”, Preside Maria Goretti Oliviero, Sindaco Massimiliano Carullo, Assessore alla P.I. Lucia Sbrescia&lt;/p&gt;
+
+&lt;p&gt;09:45 “Benvenuto ed introduzione al software libero”, Gennaro Ragucci&lt;/p&gt;
+
+&lt;p&gt;10:45 “Le libertà digitali”, Maria Luce Mariniello&lt;/p&gt;
+
+&lt;p&gt;12:00 “Un’esperienza di utilizzo di Linux nella didattica di sostegno presso l’IC Mercogliano”, Elena Larkova&lt;/p&gt;
+
+&lt;p&gt;12:30-14:00 Break&lt;/p&gt;
+
+&lt;p&gt;14:00 “Bitcon e le criptomonete 2.0”, Cosimo Guglielmucci&lt;/p&gt;
+
+&lt;p&gt;14:45 “Il search engine: Elasticsearch”, Patrick Guido Arminio&lt;/p&gt;
+
+&lt;p&gt;15:30 “Introduzione ad AngularJS”, Luigi De Rosa&lt;/p&gt;
+
+&lt;p&gt;16:15 Intervento di un alunno dell’ITIS Dorso sull’uso di software libero&lt;/p&gt;
+
+&lt;p&gt;16:45 “Linux come firewall/router, proxy e domain controller”, Gioacchino Rocco&lt;/p&gt;
+
+&lt;p&gt;17:15 “CMS Open Source”, Andrea Pastore&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 01 Oct 2014 22:00:00 +0200</pubDate>
+        <link>http://www.irlug.it/blog/linux%20day/eventi/linux-day-2014</link>
+        <guid isPermaLink="true">http://www.irlug.it/blog/linux%20day/eventi/linux-day-2014</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>Linux Day</category>
+        
+        <category>Eventi</category>
+        
+      </item>
+    
   </channel>
 </rss>
