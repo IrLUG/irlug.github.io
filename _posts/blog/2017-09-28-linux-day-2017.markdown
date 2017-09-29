@@ -7,7 +7,7 @@ categories:
 - blog
 - Linux Day
 - Eventi
-img: ld2014.jpg
+img: linux-day-2017.jpg
 thumb: thumb01.jpg
 ---
 
