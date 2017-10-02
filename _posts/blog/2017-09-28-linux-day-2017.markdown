@@ -24,3 +24,7 @@ La partecipazione è gratuita ed il programma degli interventi si focalizzerà s
 L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo spesso conosciuto solo dagli specialisti e tecnici del settore.
 
 Il programma sarà pubblicato a breve
+
+<div style="display: flex; align-items: center; justify-content: center; padding: 20px 0;">
+    <img src="{{ "/assets/img/linuxday-logo.svg" | prepend: site.baseurl }}" width="150" />
+</div>
