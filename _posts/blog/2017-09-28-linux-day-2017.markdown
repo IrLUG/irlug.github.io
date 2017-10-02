@@ -13,7 +13,7 @@ thumb: thumb01.jpg
 
 Linux Day 2017 Irpino.
 
-Sabato 25 ottobre, dalle ore 16:00 alle ore 19:00, il Tilt ospiterà tutti gli appassionati della cultura digitale libera.
+Sabato 28 ottobre, dalle ore 16:00 alle ore 19:00, il Tilt ospiterà tutti gli appassionati della cultura digitale libera.
 <!--more-->
 La manifestazione, denominata "Linux Day", si svolge sin dal 2004, in numerose località d'Italia ed è organizzata
 dai Linux user group locali.
