@@ -14,10 +14,29 @@ permalink: /memo
     <meta property="og:image" content="http://irlug.it/assets/img/logo-big.png"/>
     <meta property="og:site_name" content="Linux Day"/>
     <meta property="og:description" content="Memorizza l'evento sul tuo calendario" />
-    <meta http-equiv="refresh" content="0;URL='webcal://irlug.it/assets/other/linuxday2017avellino.ics'" />
+
+    <noscript>
+        <meta http-equiv="refresh" content="0;URL='http://irlug.it/assets/other/linuxday2017avellino.ics'" />
+    </noscript>
 
     <title>Linux Day 2017 - Memorizza l'evento sul tuo calendario</title>
 </head>
 <body>
+    <script>
+        const icsPath = 'irlug.it/assets/other/linuxday2017avellino.ics';
+        const appVersion = navigator.appVersion;
+        const isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+        if (isiOS || appVersion.indexOf('Mac') != -1) {
+            window.location = 'webcal://' + icsPath;
+        } else {
+            window.location = 'http://' + icsPath;
+        }
+
+        // if (appVersion.indexOf('Win')!=-1) OSName='Windows';
+        // if (appVersion.indexOf('Mac')!=-1) OSName='MacOS';
+        // if (appVersion.indexOf('X11')!=-1) OSName='UNIX';
+        // if (appVersion.indexOf('Linux')!=-1) OSName='Linux';
+    </script>
 </body>
 </html>
