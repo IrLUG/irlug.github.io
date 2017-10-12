@@ -23,9 +23,9 @@ permalink: /memo
 </head>
 <body>
     <script>
-        const icsPath = 'irlug.it/assets/other/linuxday2017avellino.ics';
-        const appVersion = navigator.appVersion;
-        const isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        var icsPath = 'irlug.it/assets/other/linuxday2017avellino.ics';
+        var appVersion = navigator.appVersion;
+        var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
         if (isiOS || appVersion.indexOf('Mac') != -1) {
             window.location = 'webcal://' + icsPath;
