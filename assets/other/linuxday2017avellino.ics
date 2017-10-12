@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:1.0
+BEGIN:VEVENT
+DTSTART:20171028T160000
+DTEND:20171028T190000
+SUMMARY:Linux Day Avellino - IrLUG
+LOCATION:Tilt! Avellino
+DESCRIPTION:Il Linux Day di quest'anno è incentrato sulla #Privacy, però non mancheranno argomenti legati al mondo #OpenSouce.  https://www.facebook.com/events/492615651105544/
+PRIORITY:3
+END:VEVENT
+END:VCALENDAR
