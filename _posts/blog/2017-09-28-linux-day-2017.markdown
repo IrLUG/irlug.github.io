@@ -23,7 +23,27 @@ La partecipazione è gratuita ed il programma degli interventi si focalizzerà s
 
 L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo spesso conosciuto solo dagli specialisti e tecnici del settore.
 
-Il programma sarà pubblicato a breve
+<style>
+    .schedule {
+        list-style: none;
+    }
+
+    .schedule li {
+        margin-top: 10px;
+    }
+</style>
+
+<p>Programma:</p>
+
+<ul class="schedule">
+    <li><strong>Benvenuto e introduzione</strong><br />— Rino Ragucci</li>
+    <li><strong>Docker: a software technology providing containers</strong><br />— Gaetano Pila</li>
+    <li><strong>Data Economy: Se una merce è gratis, allora la merce sei tu!</strong><br />— Luciano Giuseppe</li>
+    <li><strong>La tutela della Privacy nell'era dei Big Data</strong><br />— Maria Orefice (Dott. in Ricerca di Diritto Costituzionale - Federico II)</li>
+    <li><strong>Poly, la stampante 3D portatile</strong><br />— 3D-RAP</li>
+    <li><strong>Privacy e IT Security: "come origliano dietro la porta"</strong><br />— Hermann Magliacane</li>
+    <li><strong>Priva-cy o no? Dai programmi di sorveglianza globale ai tool privacy-aware</strong><br />— Angelo Ciampa (ICT Sec.Eng. @ Sanniomatica), Antonio Pirozzi (Director @CSE CybSec Enterprise)</li>
+</ul>
 
 <div style="display: flex; align-items: center; justify-content: center; padding: 20px 0;">
     <img src="{{ "/assets/img/linuxday-logo.svg" | prepend: site.baseurl }}" width="150" />
