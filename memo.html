@@ -7,6 +7,7 @@ permalink: /memo
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
@@ -16,22 +17,29 @@ permalink: /memo
     <meta property="og:description" content="Memorizza l'evento sul tuo calendario" />
 
     <noscript>
-        <meta http-equiv="refresh" content="0;URL='http://irlug.it/assets/other/linuxday2017avellino.ics'" />
+        <meta http-equiv="refresh" content="0;URL='http://marcoacierno.space/irlug.ics'" />
     </noscript>
 
     <title>Linux Day 2017 - Memorizza l'evento sul tuo calendario</title>
 </head>
 <body>
+    Dai uno sguardo al
+    <a href="https://www.facebook.com/events/492615651105544/">nostro evento facebook</a>
+    o <a href="">sito web</a>
+
     <script>
-        var icsPath = 'irlug.it/assets/other/linuxday2017avellino.ics';
+        var icsPath = 'marcoacierno.space/irlug.ics';
         var appVersion = navigator.appVersion;
         var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        var finalUrl = '';
 
         if (isiOS || appVersion.indexOf('Mac') != -1) {
-            window.location = 'webcal://' + icsPath;
+            finalUrl = 'webcal://' + icsPath;
         } else {
-            window.location = 'http://' + icsPath;
+            finalUrl = 'http://' + icsPath;
         }
+
+        window.location = finalUrl;
 
         // if (appVersion.indexOf('Win')!=-1) OSName='Windows';
         // if (appVersion.indexOf('Mac')!=-1) OSName='MacOS';
