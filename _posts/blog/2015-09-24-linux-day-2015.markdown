@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Linux Day 2015"
+date: 2015-09-24 20:00:00
+author: Patrick
+categories:
+- blog
+- Linux Day
+- Eventi
+img: linux-day-2015.png
+thumb: thumb01.jpg
+---
+
+
+Sabato 24 ottobre, dalle ore 16:00 alle ore 19:00, il Tilt ospiterà tutti gli appassionati della cultura digitale libera.
+<!--more-->
+La manifestazione, denominata "Linux Day", si svolge sin dal 2004, in numerose località d'Italia ed è organizzata
+dai Linux user group locali.
+
+L'appuntamento per gli appassionati del mondo dell'informatica è presso il Tilt! Visita il [sito ufficiale](http://2015.irlug.it/) per altre informazioni!
+
+L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo spesso conosciuto solo dagli specialisti e tecnici del settore.
+
+<style>
+    .schedule {
+        list-style: none;
+    }
+
+    .schedule li {
+        margin-top: 10px;
+    }
+</style>
+
+<p>Programma:</p>
+
+<ul class="schedule">
+    <li><strong>Polymer e WebComponents</strong><br />— Vincent De Feo</li>
+    <li><strong>The Z shell</strong><br />— Marco Ferraioli </li>
+    <li><strong>Bitcoin: sistemi blockchain!</strong><br />— Francesco Matarazzo</li>
+    <li><strong>The road to PHP7</strong><br />— Giuseppe Luciano</li>
+</ul>
+
+<a target="_blank" href="{{ "/assets/img/events/locandina-linux-day-2015.jpg" | prepend: site.baseurl }}" style="display: flex; align-items: center; justify-content: center; padding: 20px 0;">
+    <img src="{{ "/assets/img/events/locandina-linux-day-2015.jpg" | prepend: site.baseurl }}" width="400" />
+</a>
