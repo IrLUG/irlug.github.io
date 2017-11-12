@@ -53,7 +53,7 @@ L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo 
         <strong>Privacy e IT Security: "come origliano dietro la porta"</strong><br />— Hermann Magliacane (<a href="{{ "/assets/slides/linuxday2017/come-origliano-dietro-la-porta.odp" | prepend: site.baseurl }}" download>Scarica slide</a>)
     </li>
     <li>
-        <strong>Priva-cy o no? Dai programmi di sorveglianza globale ai tool privacy-aware</strong><br />— Angelo Ciampa (ICT Sec.Eng. @ Sanniomatica) (<a href="{{ "/assets/slides/linuxday2017/priva_cy-o-no-part2.pdf" | prepend: site.baseurl }}" download>Scarica slide (Parte 1)</a>), Antonio Pirozzi (Director @CSE CybSec Enterprise) (<a href="{{ "/assets/slides/linuxday2017/priva_cy-o-no-part1.pdf" | prepend: site.baseurl }}" download>Scarica slide (Parte 2)</a>)
+        <strong>Priva-cy o no? Dai programmi di sorveglianza globale ai tool privacy-aware</strong><br />— Angelo Ciampa (ICT Sec.Eng. @ Sanniomatica) (<a href="{{ "/assets/slides/linuxday2017/priva_cy-o-no-part2.pdf" | prepend: site.baseurl }}" download>Scarica slide</a>), Antonio Pirozzi (Director @CSE CybSec Enterprise) (<a href="{{ "/assets/slides/linuxday2017/priva_cy-o-no-part1.pdf" | prepend: site.baseurl }}" download>Scarica slide</a>)
     </li>
 </ul>
 
