@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Arduino Day 2018"
+date: 2018-03-08 18:00:00
+author: marco
+categories:
+- blog
+- Arduino Day
+- Eventi
+img: arduino_2018.jpg
+thumb: thumb01.jpg
+---
+
+L'IrLUG in vista del prossimo Arduino Day invita tutti gli appassionati a partecipare all’evento dedicato alla scheda elettronica, tutta italiana, che ha rivoluzionato l’universo dei maker
+
+<!--more-->
+
+Ma non solo Arduino, anche Raspberry, IOT, Stampa 3D e tanto altro.
+
+Presenta il tuo progetto (Arduino based e non), singolarmente o in gruppo, inviando un messaggio alla nostra pagina o compilando [questo form](https://goo.gl/forms/fwjPDWDbfoTt2cm83).
+
+L'evento si terrà a Maggio, il giorno non è ancora stato deciso ma intanto iniziamo a prepararci! #ArduinoDay2018 #IrLUG
