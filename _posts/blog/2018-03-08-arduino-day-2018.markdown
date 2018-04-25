@@ -17,8 +17,6 @@ L'IrLUG in vista del prossimo Arduino Day invita tutti gli appassionati a partec
 
 Ma non solo Arduino, anche Raspberry, IOT, Stampa 3D e tanto altro. L'evento si terrà il 13 Maggio! #ArduinoDay2018 #IrLUG
 
-Programma:
-
 <style>
     .schedule {
         list-style: none;
