@@ -15,8 +15,8 @@ L'IrLUG in vista del prossimo Arduino Day invita tutti gli appassionati a partec
 
 <!--more-->
 
-Ma non solo Arduino, anche Raspberry, IOT, Stampa 3D e tanto altro. L'evento si terrà il 13 Maggio!
-[Iscriviti e condividi l'evento facebook!](https://www.facebook.com/events/421012071655677/) #ArduinoDay2018 #IrLUG
+Ma non solo Arduino, anche Raspberry, IOT, Stampa 3D e tanto altro. <br />
+L'evento si è tenuto il 13 Maggio! #ArduinoDay2018 #IrLUG
 
 <style>
     .schedule {
@@ -40,9 +40,10 @@ Ma non solo Arduino, anche Raspberry, IOT, Stampa 3D e tanto altro. L'evento si 
     </li>
     <li>
         <strong>Gulliver, self balancing robot</strong><br />— Davide Mele
+        (<a href="{{ "/assets/slides/arduinoday2018/selfbalancingrobot.pdf" | prepend: site.baseurl }}" download>Scarica slide</a>)
     </li>
     <li>
-        <strong>Mani robotiche, esoscheletri ed animatroni - Automazione e Robotica con Arduino, secondo la DAM Bros Robotics</strong><br />— DAM Bros
+        <strong>Mani robotiche, esoscheletri ed animatroni - Automazione e Robotica con Arduino, secondo la DAM Bros Robotics</strong><br />— DAM Bros (<a href="{{ "/assets/slides/arduinoday2018/dambros.pdf" | prepend: site.baseurl }}" download>Scarica slide</a>)
     </li>
     <li>
         <strong>One - L'Assistente vocale fai da te</strong><br />— Cama Claudio
@@ -54,4 +55,3 @@ Ma non solo Arduino, anche Raspberry, IOT, Stampa 3D e tanto altro. L'evento si 
         <strong>Arduino PIN Bruteforcer</strong><br />— Ethical Hacking Dojo
     </li>
 </ul>
-
