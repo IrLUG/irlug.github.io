@@ -31,7 +31,10 @@ L'evento si è tenuto il 13 Maggio! #ArduinoDay2018 #IrLUG
 <p>Programma:</p>
 
 <ul class="schedule">
-    <li><strong>SmartPlant: gestisci il tuo pollice verde con Arduino</strong><br />— Hermann Magliacane</li>
+    <li>
+        <strong>SmartPlant: gestisci il tuo pollice verde con Arduino</strong><br />— Hermann Magliacane
+        (<a href="{{ "/assets/slides/arduinoday2018/hermann-magliacane.odp" | prepend: site.baseurl }}" download>Scarica slide</a>)
+    </li>
     <li>
         <strong>IOT-Smart Bag-Healthcare 3.0</strong><br />— Fabio della sala
     </li>
