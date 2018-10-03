@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linxux Day 2018"
-date: 2018-10-03 9:00:00
+date: 2018-10-02 9:00:00
 author: marco
 categories:
 - blog
