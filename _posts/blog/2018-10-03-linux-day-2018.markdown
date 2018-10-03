@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Linxux Day 2018"
+date: 2018-10-03 9:00:00
+author: marco
+categories:
+- blog
+- Linux Day
+- Eventi
+img: linux-day-2015.png
+thumb: thumb01.jpg
+---
+
+Anche quest'anno l'IrLug sta organizzando il Linux Day! 🐧 L'evento si terrà da Analist Group in via Nazionale Torrette, 94, 83013 Mercogliano AV.
+
+Il tema di questa edizione è il "World Wild Web" 🌍! A breve pubblicheremo la lista dei talk sul sito e sul [nostro evento Facebook!](https://www.facebook.com/events/289010225158179/)
