@@ -3,7 +3,6 @@
   <head>
     <script src="aframe.min.js"></script> 
     <script src="aframe-ar.min.js"></script>
-	<!-- Register an aframe component that allows reacting to marker events -->
 <script>
 "use strict";
 var lastClick = 0;
@@ -21,7 +20,7 @@ AFRAME.registerComponent('irlink', {
 					var ahref = document.getElementById("ahref");
 					ahref.setAttribute("href", "https://irlug.it/memo");
 					ahref.click();	
-				} else {
+				} else if(elId == "link2"){
 					var ahref = document.getElementById("ahref");
 					ahref.setAttribute("href", "https://irlug.it/ld2018.pdf");
 					ahref.click();	
@@ -31,6 +30,11 @@ AFRAME.registerComponent('irlink', {
 	}
 });
 </script>
+<style>
+html, body { margin:0; height:100%}
+@media screen and (orientation:portrait) { .irlandscape { display:inline;} }
+@media screen and (orientation:landscape) { .irlandscape { display:none;} }
+</style>
 </head>   
 
   <body>
@@ -52,6 +56,7 @@ AFRAME.registerComponent('irlink', {
 		<!-- The camera component defines from which perspective the user views the scene -->
 		<a-entity camera></a-entity>
     </a-scene>
-<a href="#" id="ahref" target="_blank" style="visibility:hidden"></a>
+	<a href="#" id="ahref" target="_blank" style="position:absolute;visibility:hidden"></a>
+	<span class="irlandscape" style="width:100%; position:absolute; left:0;top:0; background:black;color:white; text-align:center;">Ruota per una visione ottimale</span>
   </body>
 </html>
