@@ -13,4 +13,6 @@ thumb: thumb01.jpg
 
 Anche quest'anno l'IrLug sta organizzando il Linux Day! 🐧 L'evento si terrà da Analist Group in via Nazionale Torrette, 94, 83013 Mercogliano AV.
 
-Il tema di questa edizione è il "World Wild Web" 🌍! A breve pubblicheremo la lista dei talk sul sito e sul [nostro evento Facebook!](https://www.facebook.com/events/289010225158179/)
+Il tema di questa edizione è il "World Wild Web" 🌍! A breve pubblicheremo la lista dei talk sul sito!
+
+Registrati sul nostro [nostro evento Facebook](https://www.facebook.com/events/289010225158179/) e [scarica il reminder](https://irlug.it/memo) per il tuo calendario!
