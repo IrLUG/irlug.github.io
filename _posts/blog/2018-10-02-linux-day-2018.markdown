@@ -13,6 +13,15 @@ thumb: thumb01.jpg
 
 Anche quest'anno l'IrLug sta organizzando il Linux Day! 🐧 L'evento si terrà da Analist Group in via Nazionale Torrette, 94, 83013 Mercogliano AV.
 
-Il tema di questa edizione è il "World Wild Web" 🌍! A breve pubblicheremo la lista dei talk sul sito!
+Il tema di questa edizione è il "World Wild Web" 🌍!
 
-Registrati sul nostro [nostro evento Facebook](https://www.facebook.com/events/289010225158179/) e [scarica il reminder](https://irlug.it/memo) per il tuo calendario!
+Il programma
+
+<ul>
+    <li>Introduzione di Rino Ragucci (<a download href=""/assets/slides/linuxday2018/intro.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
+    <li>Uomi vs Algoritmi di Luigi Catuogno (<a download href=""/assets/slides/linuxday2018/uomini-vs-algoritmi.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
+    <li>Termux: turns Android into a Linux development environment di Gaetano Pila (<a download href=""/assets/slides/linuxday2018/termux-gaetano-pila.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
+    <li>Self balancing Robot - version 2 di Davide Mele (<a download href=""/assets/slides/linuxday2018/self-balancing-robot.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
+    <li>Introduzione all'uso di Visual Studio Code di Pietro Terracciano (<a download href=""/assets/slides/linuxday2018/introduzione-vscode.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
+    <li>Realtà aumentata &amp; WebApp (<a download href=""/assets/slides/linuxday2018/ar_webapps.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
+</ul>
