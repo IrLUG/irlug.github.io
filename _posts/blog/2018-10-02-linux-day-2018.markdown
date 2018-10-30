@@ -17,6 +17,16 @@ Il tema di questa edizione è il "World Wild Web" 🌍!
 
 <p>Il programma</p>
 
+<style>
+    .schedule {
+        list-style: none;
+    }
+
+    .schedule li {
+        margin-top: 10px;
+    }
+</style>
+
 <ul class="schedule">
     <li>Introduzione di Rino Ragucci (<a download href=""/assets/slides/linuxday2018/intro.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
     <li>Uomi vs Algoritmi di Luigi Catuogno (<a download href=""/assets/slides/linuxday2018/uomini-vs-algoritmi.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
