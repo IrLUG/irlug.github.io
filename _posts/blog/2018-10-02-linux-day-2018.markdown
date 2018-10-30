@@ -33,7 +33,7 @@ Il tema di questa edizione è il "World Wild Web" 🌍!
     <li><strong>Uomi vs Algoritmi</strong><br /> - Luigi Catuogno (<a download href="{{ "/assets/slides/linuxday2018/uomini-vs-algoritmi.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
     <li><strong>Termux: turns Android into a Linux development environment</strong><br /> - Gaetano Pila (<a download href="{{ "/assets/slides/linuxday2018/termux-gaetano-pila.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
     <li><strong>Self balancing Robot - version 2</strong><br /> - Davide Mele (<a download href="{{ "/assets/slides/linuxday2018/self-balancing-robot.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
-    <li><strong>Introduzione all'uso - Visual Studio Code</strong><br /> - Pietro Terracciano (<a download href="{{ "/assets/slides/linuxday2018/introduzione-vscode.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
+    <li><strong>Introduzione all'uso di Visual Studio Code</strong><br /> - Pietro Terracciano (<a download href="{{ "/assets/slides/linuxday2018/introduzione-vscode.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
     <li><strong>Realtà aumentata &amp; WebApp</strong><br /> - Giuseppe Luciano (<a download href="{{ "/assets/slides/linuxday2018/ar_webapps.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
 </ul>
 
