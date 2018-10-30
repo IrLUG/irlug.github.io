@@ -59,3 +59,7 @@ L'evento si è tenuto il 13 Maggio! #ArduinoDay2018 #IrLUG
         <strong>Arduino PIN Bruteforcer</strong><br />— Ethical Hacking Dojo
     </li>
 </ul>
+
+<p>Locandina</p>
+
+<img src='/assets/img/events/locandina-linux-day-2018.jpg' class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/>
