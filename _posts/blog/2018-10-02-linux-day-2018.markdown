@@ -36,3 +36,7 @@ Il tema di questa edizione è il "World Wild Web" 🌍!
     <li>Introduzione all'uso di Visual Studio Code di Pietro Terracciano (<a download href="{{ "/assets/slides/linuxday2018/introduzione-vscode.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
     <li>Realtà aumentata &amp; WebApp (<a download href="{{ "/assets/slides/linuxday2018/ar_webapps.pdf" | prepend: site.baseurl }}">Scarica le slide</a>)</li>
 </ul>
+
+<p>Locandina</p>
+
+<img src='/assets/img/events/locandina-linux-day-2018.jpg' class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/>
