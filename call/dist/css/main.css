@@ -729,7 +729,7 @@ dl {
 @media only screen and (max-width: 860px) {
   .wrapper {
     left: auto;
-    padding: 9rem 3rem;
+    padding: 2rem 3rem;
     margin: 0 auto; }
   #background {
     opacity: 0.2; }
