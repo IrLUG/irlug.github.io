@@ -1,0 +1,37 @@
+@font-face {
+	font-family: "font";
+	src: url('./font.eot');
+	src: url('./font.eot?#iefix') format('eot'),
+		url('./font.woff') format('woff'),
+		url('./font.ttf') format('truetype'),
+		url('./font.svg#font') format('svg');
+}
+
+.icon:before {
+	font-family: "font";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-facebook:before {
+	content: "\E001";
+}
+
+.icon-led:before {
+	content: "\E002";
+}
+
+.icon-plus:before {
+	content: "\E003";
+}
+
+.icon-twitter:before {
+	content: "\E004";
+}
