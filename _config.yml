@@ -20,6 +20,7 @@ colors:  #in hex code if not noted else
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
 
+future: true
 
 ### CONTACT SETTINGS ###
 
