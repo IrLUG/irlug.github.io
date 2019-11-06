@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Linux Day 2019 slide"
+date: 2019-11-06 16:25:00
+author: irlug
+categories:
+- blog
+- Linux Day
+- Eventi
+img: linux-day-2019.jpg
+thumb: thumb01.jpg
+---
+
+Sono disponibili le slide del Linux Day Avellino 2019!
+Ecco il link alla cartella google drive ==><a href="https://drive.google.com/drive/folders/1iwENkWrzKgCj-8BkTRC3cBa4IkL8H82L">SLIDE</a>
+
+<p>Locandina evento</p>
+
+<img src='/assets/img/events/LD19.png' class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/>
