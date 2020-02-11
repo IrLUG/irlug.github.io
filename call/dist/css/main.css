@@ -629,9 +629,11 @@ a.button {
   bottom: 0;
   top: 0;
   background-image: url(../../img/bg.svg);
-  background-position: 180% 40%;
-  background-size: 180%;
-  background-repeat: no-repeat; }
+  background-position: 65% 35%;
+  background-size: 117%;
+  background-repeat: no-repeat; 
+  opacity: 0.3;
+}
 
 #main-container {
   height: 100%;
@@ -649,11 +651,15 @@ a.button {
 
 
 #logo {
+  background-color: white;
   width: 100%;
   height: auto;
   border: 0; }
 .ulcenter{
   text-align: center;
+}
+#h1Date{
+  background-color: white;
 }
 
 ul.logos li {
@@ -753,4 +759,17 @@ dl {
     max-width: 50% !important; }
   ul.logos li.irlug {
       max-width: 38% !important; }
+  }
+  @media screen and (max-width: 40em){
+    #background{
+      background-position: 90% 58%;
+      background-size: 200%;
+    }
+  }
+  @media screen and (min-width: 1600px){
+    #background{
+      background-position: 125% 35%;
+      background-size: 85%;
+      opacity: 0.2;
+    }
   }
