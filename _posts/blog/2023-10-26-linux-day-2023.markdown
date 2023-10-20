@@ -17,13 +17,15 @@ Sabato 28 ottobre 2023, dalle ore 10:00 presso "AiBur - Associazione Irpinia Bur
 <!--more-->
 La manifestazione, denominata "Linux Day", si svolge sin dal 2004, in numerose località d'Italia ed è organizzata
 dai Linux user group locali.
+
 L'appuntamento per gli appassionati del mondo dell'informatica è presso la sede [AiBur - Associazione Irpinia Burraco in via Nazionale Torrette 104, 83100 Avellino AV](https://maps.app.goo.gl/5mWu8eK9i7KamhCJ8)!
 
-[Prenotati qui gratuitamente](https://www.eventbrite.it/e/biglietti-linux-day-2023-avellino-740760032197?aff=oddtdtcreator).
+[Prenotati qui gratuitamente](https://www.eventbrite.it/e/biglietti-linux-day-2023-avellino-740760032197).
 
 La partecipazione è libera e gratuita.
 
 L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo spesso conosciuto solo dagli specialisti e tecnici del settore.
+
 
 <style>
     .schedule {
@@ -66,3 +68,10 @@ L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo 
 <div style="display: flex; align-items: center; justify-content: center; padding: 20px 0;">
     <a href="/assets/img/events/locandina-linux-day-2023.png" target="_blank"><img src="/assets/img/events/locandina-linux-day-2023.png" class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/></a>
 </div>
+
+
+D﻿urante l'evento chi porterà il proprio laptop può essere supportato nell'installazione di linux e confrontarsi con la community.
+
+Seguici e resta informato sui nostri eventi:
+
+[https://irlug.it](https://irlug.it) | [Twitter](https://twitter.com/irpinialug) | [Facebook](https://www.facebook.com/IrLUG/) | [Instagram](https://www.instagram.com/irpinialug/) | [Telegram IrLUG news](https://t.me/irlug)
