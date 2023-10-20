@@ -1,0 +1,66 @@
+---
+layout: post
+title: "Linux Day 2023"
+date: 2023-10-20 10:09:00
+author: Hermann
+categories:
+- blog
+- Linux Day
+- Eventi
+img: locandina-linux-day-2023.png
+thumb: thumb01.jpg
+---
+
+Linux Day 2023.
+
+Sabato 28 ottobre 2023, dalle ore 10:00 presso "AiBur - Associazione Irpinia Burraco" verrà ospitato l'evento per tutti gli appassionati della cultura digitale libera.
+<!--more-->
+La manifestazione, denominata "Linux Day", si svolge sin dal 2004, in numerose località d'Italia ed è organizzata
+dai Linux user group locali.
+L'appuntamento per gli appassionati del mondo dell'informatica è presso la sede [AiBur - Associazione Irpinia Burraco in via Nazionale Torrette 104, 83100 Avellino AV]([https://goo.gl/maps/C3EJep8L52k](https://maps.app.goo.gl/5mWu8eK9i7KamhCJ8))! [Prenotazione gratuita non obbligatoria]([https://www.facebook.com/events/492615651105544/](https://www.eventbrite.it/e/biglietti-linux-day-2023-avellino-740760032197?aff=oddtdtcreator)).
+
+La partecipazione è libera e gratuita.
+
+L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo spesso conosciuto solo dagli specialisti e tecnici del settore.
+
+<style>
+    .schedule {
+        list-style: none;
+    }
+
+    .schedule li {
+        margin-top: 10px;
+    }
+</style>
+
+<p>Programma:</p>
+
+<ul class="schedule">
+    <li><strong>Presentazione Linux Day 2023</strong><br />— Saverio Fruncillo</li>
+    <li>
+        <strong>Un salto nel passato: retrogaming con Batocera</strong><br />— Hermann Magliacane
+    </li>
+    <li>
+        <strong>Coffee Break</strong><br />
+    </li>
+    <li>
+        <strong>IPv6: chiariamo i dubbi</strong><br />— Saverio Fruncillo
+    </li>
+    <li>
+        <strong>KrakenD: da mostro ad eroe delle tue API</strong><br />— Gaetano Pila
+    </li>
+    <li>
+        <strong>I dati della sanità all'interno delle underground (da remoto)</strong><br />— Pietro Melillo
+    </li>
+    <li>
+        <strong>Android: posizionamento indoor e outdoor</strong><br />— Pietro Terracciano
+    </li>
+    <li>
+        <strong>Saluti e ringraziamenti</strong>
+    </li>
+</ul>
+
+
+<div style="display: flex; align-items: center; justify-content: center; padding: 20px 0;">
+    <a href="/assets/img/events/locandina-linux-day-2023.png" target="_blank"><img src="/assets/img/events/locandina-linux-day-2023.png" class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/></a>
+</div>
