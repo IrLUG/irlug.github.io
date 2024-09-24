@@ -13,7 +13,7 @@ thumb: thumb01.jpg
 
 Linux Day 2024.
 
-Sabato 26 ottobre 2024 anche ad Avellino si svolgerà il Linux Day 2024 
+Sabato 26 ottobre 2024 anche ad Avellino si svolger&agrave; il Linux Day 2024 
 
 Hai piacere di portare un tuo talk? [Comunicacelo qui quanto prima!](https://forms.gle/JdSAG4xHdoUtajdu6)
 
@@ -24,4 +24,4 @@ Durante l'evento chi porter&agrave; il proprio laptop pu&ograve; essere supporta
 
 Seguici e resta informato sui nostri eventi:
 
-[https://irlug.it](https://irlug.it) | [Twitter](https://twitter.com/irpinialug) | [Facebook](https://www.facebook.com/IrLUG/) | [Instagram](https://www.instagram.com/irpinialug/) | [Telegram IrLUG news](https://t.me/irlug)
+[https://irlug.it](https://irlug.it) \| [Twitter](https://twitter.com/irpinialug) \| [Facebook](https://www.facebook.com/IrLUG/) \| [Instagram](https://www.instagram.com/irpinialug/) \| [Telegram IrLUG news](https://t.me/irlug)
