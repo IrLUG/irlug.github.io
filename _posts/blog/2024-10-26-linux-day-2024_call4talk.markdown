@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linux Day 2024"
+title: "Linux Day 2024 Call Proposal"
 date: 2024-09-24 12:36:00
 author: Hermann
 categories:
