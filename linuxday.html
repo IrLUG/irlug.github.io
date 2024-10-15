@@ -2,279 +2,30 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linux Day 2024 Avellino - Programma</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="refresh" content="1;url=https://irlug.it/ld24.html">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        setTimeout(function(){
+            window.location.href = 'https://irlug.it/ld24.html';
+        }, 1000);
+    </script>
     <style>
         body {
-            background-color: white;
-            font-family: 'Arial', sans-serif;
-            color: #222; 
-        }
-
-        .header {
-            background-color: #4c862f; 
-            padding: 20px;
-            text-align: center;
-            border-bottom: 5px solid #384452; 
-            text-align: center;
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-        }
-
-        .header h1 {
-            font-size: 3rem;
-            font-weight: bold;
-            color: #384452; 
-        }
-
-        .header h2{
-            font-size: 2.5rem;
-            font-weight: bold;
-            color: #384452; 
-        }
-
-        .header p {
-            font-size: 1.5rem;
-            font-weight: 500;
-            color: #333;
-        }
-
-        .logo {
-            width: 100px;
-            position: absolute;
-            top: 20px;
-            left: 20px;
-        }
-
-        .talk-section {
-            margin-top: 1rem;
-            padding: 20px;
-        }
-
-        .talk-section h1{
-            margin-bottom: 2rem;
-        }
-
-        .talk {
-            background-color: #E0E0E0;
-            padding: 1.5rem;
-            border: 1px solid #ccc;
-            margin-bottom: 1.5rem;
-            border-left: 5px solid #384452; 
-        }
-
-        .talk h3 {
-            color: #384452; 
-            font-weight: bold;
-        }
-
-        .talk p {
-            color: #333;
-        }
-
-        footer {
-            background-color: #4c862f; 
-            color: #222;
-            padding: 1rem 0;
-            text-align: center;
-            border-top: 5px solid #384452; 
-            margin-top: 2rem;
-        }
-
-        .footer-content p {
-            font-weight: 500;
-        }
-
-        .sheep-icon {
-            background-color: rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
-            padding: 20px;
-            display: flex;
-            align-items: center;
             justify-content: center;
-            width: 220px;
-            height: 220px;
-            margin: 20px 0;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
-
-        .sheep-icon img {
-            width: 90%;
-            padding-left: 7%;
-            height: auto;
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 20px;
         }
-
-        p.lead {
-            font-size: 1.8rem;
-            color: white;
-            font-weight: bold;
-            margin-top: 10px;
-        }
-
-        .terminal {
-            background-color: #333;
-            color: #fff;
-            font-family: 'Courier New', Courier, monospace;
-            padding: 20px;
-            margin: 30px 0;
-            margin-bottom: 0;
-            border-radius: 8px;
-            display: inline-block;
-            max-width: 100%;
-            font-size: 1.5rem;
-        }
-
-        .terminal::before {
-            content: '$ ';
-            color: lime;
-        }
-
-        /* @media only screen and (max-width: 569px) {
-            .terminal {
-                font-size: 1rem;
-            }
-        } */
-
-        p.lead.date{
-            font-size: 2.5rem;
-        }
-
-        .level {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 10px;
-}
-
-.level img {
-    width: 30px; 
-    height: auto;
-    margin-right: 5px; 
-}
-        
     </style>
 </head>
 <body>
-
-    <!-- Header -->
-    <header class="header position-relative">
-        <div class="sheep-icon">
-            <img src="https://irlug.it/assets/img/logo-big.png" alt="Linux Day 2024 Mascot">
-        </div>
-
-        <div class="terminal mt-4">
-            Irlug@LinuxDay2024$ ./getTalk.sh
-        </div>
-        <p class="lead date">26 ottobre, start ore 15:00</p>
-        <p class="lead">Presso la sede della Misericordia <br>Via Tagliamento, 233 Avellino (AV) <br>Ingresso libero</p>
-    </header>
-
-    <!-- Talk Section -->
-    <div class="container talk-section">
-        <h1 class="text-center">Programma dei Talks</h1>
-
-        <div class="talk">
-            <div class="level">
-                <img src="tux/gs.png">
-                <img src="tux/gs.png">
-                <img src="tux/gs.png">
-            </div>
-            <h4 >15:00</h4>
-            <h3>Benvenuto</h3>
-        </div>
-
-        <div class="talk">
-            <div class="level">
-                <img src="tux/col.png" alt="Talk per Entry Level - Beginners">
-                <img src="tux/gs.png">
-                <img src="tux/gs.png">
-            </div>
-            <h4>15:30</h4>
-            <h3>Un viaggio tra le nuvole: La pervasività dell'open source nelle soluzioni Public Cloud<br><small><i>Come le scelte di risorse libere efficientano le soluzioni Cloud (Azure)</i></small></h3>
-            <p><i>Hermann Magliacane</i><br>CloudDevOps @ Millennium S.p.A. ~ CompTIA Cloud+, Azure Administrator Certified</p>
-        </div>
-        
-        <div class="talk">
-            <div class="level">
-                <img src="tux/col.png" alt="Talk per Intermediate">
-                <img src="tux/col.png" alt="Talk per Intermediate">
-                <img src="tux/gs.png">
-            </div>
-            <h4>16:00</h4>
-            <h3>REST API semplici e veloci su Ubuntu<br><small><i>Da un progetto .NET basato su Kestrel WebServer al deploy su EC2 di AWS</i></small></h3>
-            <p><i>Pietro Terracciano</i><br>Full-Stack .Net Engineer ~ Specializzato in Backend Development</p>
-        </div>
-
-        <div class="talk">
-            <div class="level">
-                <img src="tux/gs.png" alt="Talk per Entry Level - Beginners">
-                <img src="tux/gs.png">
-                <img src="tux/gs.png">
-            </div>
-            <h4>16:30</h4>
-            <h3>COFFEE BREAK</h3>
-        </div>
-
-        <div class="talk">
-            <div class="level">
-                <img src="tux/col.png" alt="Talk per Entry Level - Beginners">
-                <img src="tux/gs.png">
-                <img src="tux/gs.png">
-            </div>
-            <h4>17:00</h4>
-            <h3>WI-FI Apocalypse<br><small><i>Passato, presente e futuro a rilento. Facciamo chiarezza e sfatiamo i miti</i></small></h3>
-            <p><i>Saverio Fruncillo</i><br>15 anni nel settore IT, 20+ certificazioni, appassionato di tecnologia</p>
-        </div>
-
-        <div class="talk">
-            <div class="level">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
-            </div>
-            <h4>17:30</h4>
-            <h3>Hardening your image with Trivy and Copa<br><small><i>Come rendere sicure le tue immagini con tool che ti scannerizzano vulnerabilities e patchano in automatico la tua base image</i></small></h3>
-            <p><i>Fortunato Alfonso</i><br>DevSecOps engineer security oriented</p>
-        </div>
-
-        <div class="talk">
-            <div class="level">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
-            </div>
-            <h4>18:00</h4>
-            <h3>Lo stack grafico di Linux<br><small><i>Dal programmatore ai pixel sullo schermo</i></small></h3>
-            <p><i>Antonio Caggiano</i><br>Staff Engineer @Qualcomm</p>
-        </div>
-
-        <div class="talk">
-            <div class="level">
-                <img src="tux/col.png" alt="Talk per Intermediate">
-                <img src="tux/col.png" alt="Talk per Intermediate">
-                <img src="tux/gs.png">
-            </div>
-            <h4>18:30</h4>
-            <h3>Privileges...Escalated quickly <br><small><i>Da guest a root senza "sudo-are" tanto</i></small></h3>
-            <p><i>Angelo Ciampa</i><br>IT Security Engineer & CTO</p>
-        </div>
-
-
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-            <p>Linux Day 2024 Avellino ~ IrLUG - Irpinia Linux User Group</p>
-			<br>Seguici su:
-			<a href="https://t.me/irlug" target="_BLANK"><img src="./tux/telegram-48.png" alt="Telegram - IrLUG news"></a>
-			<a href="https://www.instagram.com/irpinialug/" target="_BLANK"><img src="./tux/instagram-48.png" alt="IrLUG on Instagram"></a>
-			<a href="https://www.facebook.com/IrLUG" target="_BLANK"><img src="./tux/facebook-48.png" alt="IrLUG on Facebook"></a>
-			
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <p>Se il redirect non funziona automaticamente, clicca <a href="https://irlug.it/ld24.html">qui</a>.</p>
 </body>
 </html>
