@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux Day 2024"
-date: 2024-09-24 12:36:00
+date: 2024-10-15 08:36:00
 author: Hermann
 categories:
 - blog
@@ -11,7 +11,6 @@ img: locandina-linux-day-2023.png
 thumb: thumb01.jpg
 ---
 
-<!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -189,9 +188,9 @@ thumb: thumb01.jpg
 
         <div class="talk">
             <div class="level">
-                <img src="tux/gs.png">
-                <img src="tux/gs.png">
-                <img src="tux/gs.png">
+                <img src="../tux/gs.png">
+                <img src="../tux/gs.png">
+                <img src="../tux/gs.png">
             </div>
             <h4 >15:00</h4>
             <h3>Benvenuto</h3>
@@ -199,9 +198,9 @@ thumb: thumb01.jpg
 
         <div class="talk">
             <div class="level">
-                <img src="tux/col.png" alt="Talk per Entry Level - Beginners">
-                <img src="tux/gs.png">
-                <img src="tux/gs.png">
+                <img src="../tux/col.png" alt="Talk per Entry Level - Beginners">
+                <img src="../tux/gs.png">
+                <img src="../tux/gs.png">
             </div>
             <h4>15:30</h4>
             <h3>Un viaggio tra le nuvole: La pervasività dell'open source nelle soluzioni Public Cloud<br><small><i>Come le scelte di risorse libere efficientano le soluzioni Cloud (Azure)</i></small></h3>
@@ -210,9 +209,9 @@ thumb: thumb01.jpg
         
         <div class="talk">
             <div class="level">
-                <img src="tux/col.png" alt="Talk per Intermediate">
-                <img src="tux/col.png" alt="Talk per Intermediate">
-                <img src="tux/gs.png">
+                <img src="../tux/col.png" alt="Talk per Intermediate">
+                <img src="../tux/col.png" alt="Talk per Intermediate">
+                <img src="../tux/gs.png">
             </div>
             <h4>16:00</h4>
             <h3>REST API semplici e veloci su Ubuntu<br><small><i>Da un progetto .NET basato su Kestrel WebServer al deploy su EC2 di AWS</i></small></h3>
@@ -221,9 +220,9 @@ thumb: thumb01.jpg
 
         <div class="talk">
             <div class="level">
-                <img src="tux/gs.png" alt="Talk per Entry Level - Beginners">
-                <img src="tux/gs.png">
-                <img src="tux/gs.png">
+                <img src="../tux/gs.png" alt="Talk per Entry Level - Beginners">
+                <img src="../tux/gs.png">
+                <img src="../tux/gs.png">
             </div>
             <h4>16:30</h4>
             <h3>COFFEE BREAK</h3>
@@ -231,9 +230,9 @@ thumb: thumb01.jpg
 
         <div class="talk">
             <div class="level">
-                <img src="tux/col.png" alt="Talk per Entry Level - Beginners">
-                <img src="tux/gs.png">
-                <img src="tux/gs.png">
+                <img src="../tux/col.png" alt="Talk per Entry Level - Beginners">
+                <img src="../tux/gs.png">
+                <img src="../tux/gs.png">
             </div>
             <h4>17:00</h4>
             <h3>WI-FI Apocalypse<br><small><i>Passato, presente e futuro a rilento. Facciamo chiarezza e sfatiamo i miti</i></small></h3>
@@ -242,9 +241,9 @@ thumb: thumb01.jpg
 
         <div class="talk">
             <div class="level">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
+                <img src="../tux/col.png" alt="Talk di difficoltà avanzata">
+                <img src="../tux/col.png" alt="Talk di difficoltà avanzata">
+                <img src="../tux/col.png" alt="Talk di difficoltà avanzata">
             </div>
             <h4>17:30</h4>
             <h3>Hardening your image with Trivy and Copa<br><small><i>Come rendere sicure le tue immagini con tool che ti scannerizzano vulnerabilities e patchano in automatico la tua base image</i></small></h3>
@@ -253,9 +252,9 @@ thumb: thumb01.jpg
 
         <div class="talk">
             <div class="level">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
-                <img src="tux/col.png" alt="Talk di difficoltà avanzata">
+                <img src="../tux/col.png" alt="Talk di difficoltà avanzata">
+                <img src="../tux/col.png" alt="Talk di difficoltà avanzata">
+                <img src="../tux/col.png" alt="Talk di difficoltà avanzata">
             </div>
             <h4>18:00</h4>
             <h3>Lo stack grafico di Linux<br><small><i>Dal programmatore ai pixel sullo schermo</i></small></h3>
@@ -264,9 +263,9 @@ thumb: thumb01.jpg
 
         <div class="talk">
             <div class="level">
-                <img src="tux/col.png" alt="Talk per Intermediate">
-                <img src="tux/col.png" alt="Talk per Intermediate">
-                <img src="tux/gs.png">
+                <img src="../tux/col.png" alt="Talk per Intermediate">
+                <img src="../tux/col.png" alt="Talk per Intermediate">
+                <img src="../tux/gs.png">
             </div>
             <h4>18:30</h4>
             <h3>Privileges...Escalated quickly <br><small><i>Da guest a root senza "sudo-are" tanto</i></small></h3>
@@ -281,9 +280,9 @@ thumb: thumb01.jpg
         <div class="container footer-content">
             <p>Linux Day 2024 Avellino ~ IrLUG - Irpinia Linux User Group</p>
 			<br>Seguici su:
-			<a href="https://t.me/irlug" target="_BLANK"><img src="./tux/telegram-48.png" alt="Telegram - IrLUG news"></a>
-			<a href="https://www.instagram.com/irpinialug/" target="_BLANK"><img src="./tux/instagram-48.png" alt="IrLUG on Instagram"></a>
-			<a href="https://www.facebook.com/IrLUG" target="_BLANK"><img src="./tux/facebook-48.png" alt="IrLUG on Facebook"></a>
+			<a href="https://t.me/irlug" target="_BLANK"><img src="./../tux/telegram-48.png" alt="Telegram - IrLUG news"></a>
+			<a href="https://www.instagram.com/irpinialug/" target="_BLANK"><img src="./../tux/instagram-48.png" alt="IrLUG on Instagram"></a>
+			<a href="https://www.facebook.com/IrLUG" target="_BLANK"><img src="./../tux/facebook-48.png" alt="IrLUG on Facebook"></a>
 			
         </div>
     </footer>
