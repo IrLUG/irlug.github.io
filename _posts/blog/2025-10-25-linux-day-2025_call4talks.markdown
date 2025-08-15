@@ -7,7 +7,6 @@ categories:
 - blog
 - Linux Day
 - Eventi
-img: 2025Call4Talks.png
 ---
 
 Linux Day 2025.
