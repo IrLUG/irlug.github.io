@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linux Day 2024 Call Proposal"
+title: "Linux Day 2025 Call for Talks!"
 date: 2025-08-15 11:44:00
 author: Hermann
 categories:
@@ -8,7 +8,6 @@ categories:
 - Linux Day
 - Eventi
 img: 2025Call4Talks.png
-thumb: thumb01.jpg
 ---
 
 Linux Day 2025.
