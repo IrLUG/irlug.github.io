@@ -45,7 +45,7 @@ jobs:
         uses: shalzz/zola-deploy-action@v0.21.0
         env:
           BUILD_DIR: new
-          OUT_DIR: public
+          OUT_DIR: ../public
           BUILD_ONLY: 'true'
 
       - name: Upload artifact
