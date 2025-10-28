@@ -36,7 +36,7 @@ jobs:
 
       - name: build_jekyll
         # Outputs to the './public/old' directory by default
-        run: bundle exec jekyll build -b "${{ steps.pages.outputs.base_path }}" -d public/old
+        run: bundle exec jekyll build -b "${{ steps.pages.outputs.base_path }}" -s old -d public/old
         env:
           JEKYLL_ENV: production
 
@@ -44,8 +44,6 @@ jobs:
         # Build Zola site into './public' directory
         uses: shalzz/zola-deploy-action@v0.21.0
         env:
-          BUILD_DIR: new
-          OUT_DIR: public
           BUILD_ONLY: 'true'
 
       - name: Upload artifact
