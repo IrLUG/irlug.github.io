@@ -34,6 +34,12 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
+      - name: build_zola
+        # Build Zola site into './public' directory
+        uses: shalzz/zola-deploy-action@v0.21.0
+        env:
+          BUILD_ONLY: 'true'
+
       - name: build_jekyll
         # Outputs to the './public/old' directory by default
         run: |
@@ -41,12 +47,6 @@ jobs:
           jekyll build -b "${{ steps.pages.outputs.base_path }}" -s old -d public/old
         env:
           JEKYLL_ENV: production
-
-      - name: build_zola
-        # Build Zola site into './public' directory
-        uses: shalzz/zola-deploy-action@v0.21.0
-        env:
-          BUILD_ONLY: 'true'
 
       - name: Upload artifact
         # Automatically uploads an artifact from the './public' directory by default
