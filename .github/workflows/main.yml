@@ -42,7 +42,7 @@ jobs:
         # Outputs to the './public/old' directory by default
         run: |
           bundle install --gemfile=old/Gemfile
-          jekyll build -b "${{ steps.pages.outputs.base_path }}" -s old -d public/old
+          jekyll build -b "${{ steps.pages.outputs.base_path }}/old" -s old -d public/old
         env:
           JEKYLL_ENV: production
 
