@@ -36,9 +36,7 @@ jobs:
 
       - name: build_zola
         # Build Zola site into './public' directory
-        uses: shalzz/zola-deploy-action@v0.21.0
-        env:
-          BUILD_ONLY: 'true'
+        uses: zolacti/on@build
 
       - name: build_jekyll
         # Outputs to the './public/old' directory by default
