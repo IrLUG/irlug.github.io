@@ -3,7 +3,7 @@
 # Site settings
 title: IrLUG
 description: "irLUG. Irpinia Linux User Group."
-baseurl: "" #important: start with /
+baseurl: "/old" #important: start with /
 url: "http://www.irlug.it"
 
 # Build settings
