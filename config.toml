@@ -1,16 +1,62 @@
 # The URL the site will be built for
 base_url = "https://irlug.it"
 
+title = "IrLUG"
+description = "IrLUG è un'associazione senza scopo di lucro nata per diffondere la cultura del free software e dell'open source in Irpinia e dintorni"
+
+theme = "terminus"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
+# When set to "true", a feed is automatically generated.
+generate_feeds = true
+
+# The default author for pages
+author = "IrLUG"
+
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
+
 
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
+# The theme to use for code highlighting.
+# See below for list of allowed values.
+highlight_theme = "monokai"
+
+# When set to "true", emoji aliases translated to their corresponding
+# Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
+render_emoji = true
+
+# Whether footnotes are rendered in the GitHub-style (at the bottom, with back references) or plain (in the place, where they are defined)
+bottom_footnotes = true
+
 [extra]
-# Put all your custom variables here
+close_responsive_menu_on_resize = true
+copy_button = true
+favicon_emoji = "👨‍💻"
+fediverse_creator = "@ebkalderon@hachyderm.io"
+layout = "center"
+show_default_author = false
+
+main_menu = [
+    { name = "blog", url = "blog", trailing_slash = true },
+    { name = "github", url = "https://github.com/irlug", new_tab = true },
+    { name = "old", url = "/old", new_tab = true },
+]
+
+socials = [
+    { name = "email", url = "mailto:info@irlug.it" },
+    { name = "github", url = "https://github.com/irlug" },
+    { name = "facebook", url = "https://www.facebook.com/IrLUG" },
+    { name = "telegram", url = "https://t.me/irlug" },
+    { name = "flickr", url = "https://www.flickr.com/photos/140926019@N05/albums" },
+]
+
+[extra.responsive_images]
+widths = [640, 784, 1280, 1920, 2560]
+fallback_width = 1280

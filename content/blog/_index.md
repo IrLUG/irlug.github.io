@@ -1,6 +1,7 @@
 +++
-title = "List of blog posts"
+title = "Blog"
+description = "Blog section of the Terminus demo website"
 sort_by = "date"
-template = "blog.html"
-page_template = "blog-page.html"
+paginate_by = 5
+insert_anchor_links = "right"
 +++
