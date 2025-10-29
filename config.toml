@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://irlug.it"
+base_url = "https://www.antoniocaggiano.eu/irlug.github.io/"
 
 title = "IrLUG"
 description = "IrLUG è un'associazione senza scopo di lucro nata per diffondere la cultura del free software e dell'open source in Irpinia e dintorni"
