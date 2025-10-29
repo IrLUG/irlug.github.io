@@ -45,13 +45,13 @@ show_default_author = false
 
 main_menu = [
     { name = "blog", url = "blog", trailing_slash = true },
-    { name = "github", url = "https://github.com/irlug", new_tab = true },
     { name = "old", url = "/old", new_tab = true },
 ]
 
 socials = [
     { name = "email", url = "mailto:info@irlug.it" },
     { name = "github", url = "https://github.com/irlug" },
+    { name = "youtube", url = "https://www.youtube.com/channel/UCg0SEu8SEFB9bh72WfYL_Vg" },
     { name = "instagram", url = "https://www.instagram.com/irpinialug/" },
     { name = "telegram", url = "https://t.me/irlug" },
     { name = "facebook", url = "https://www.facebook.com/IrLUG" },
