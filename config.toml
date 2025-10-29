@@ -58,6 +58,10 @@ socials = [
     { name = "flickr", url = "https://www.flickr.com/photos/140926019@N05/albums" },
 ]
 
+stylesheets = [
+    "css/logo.css"
+]
+
 [extra.responsive_images]
 widths = [640, 784, 1280, 1920, 2560]
 fallback_width = 1280
