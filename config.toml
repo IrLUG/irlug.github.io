@@ -52,8 +52,9 @@ main_menu = [
 socials = [
     { name = "email", url = "mailto:info@irlug.it" },
     { name = "github", url = "https://github.com/irlug" },
-    { name = "facebook", url = "https://www.facebook.com/IrLUG" },
+    { name = "instagram", url = "https://www.instagram.com/irpinialug/" },
     { name = "telegram", url = "https://t.me/irlug" },
+    { name = "facebook", url = "https://www.facebook.com/IrLUG" },
     { name = "flickr", url = "https://www.flickr.com/photos/140926019@N05/albums" },
 ]
 
