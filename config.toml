@@ -43,6 +43,7 @@ extra_themes = ["themes/terminus/syntaxes/monokai-classic.json"]
 theme = "monokai-classic"
 
 [extra]
+color_scheme = "irpinia"
 close_responsive_menu_on_resize = true
 copy_button = true
 favicon_emoji = "👨‍💻"

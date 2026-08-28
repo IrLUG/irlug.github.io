@@ -144,7 +144,7 @@
     {%- endif %}
 </head>
 
-<body class="layout-{{ config.extra.layout }}">
+<body class="layout-{{ config.extra.layout }}" data-theme="{{ config.extra.color_scheme | default(value = "terminus") }}">
     <header class="header">
         {% filter indent -%}{%- filter indent -%}
         {%- block header -%}
