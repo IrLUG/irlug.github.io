@@ -20,13 +20,6 @@ build_search_index = true
 
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
-
-# The theme to use for code highlighting.
-# See below for list of allowed values.
-highlight_theme = "monokai"
 
 # When set to "true", emoji aliases translated to their corresponding
 # Unicode emoji equivalent in the rendered Markdown files. (e.g.: :smile: => 😄)
@@ -34,6 +27,20 @@ render_emoji = true
 
 # Whether footnotes are rendered in the GitHub-style (at the bottom, with back references) or plain (in the place, where they are defined)
 bottom_footnotes = true
+
+[markdown.highlighting]
+# Whether to use inline hex colours ("inline") or CSS classes ("class").
+# See https://www.getzola.org/documentation/content/syntax-highlighting/ for details.
+style = "inline"
+
+# Eyal: Use a slightly patched version of the Monokai theme that plays more nicely with Rust.
+# Long term solution is to improve the Rust grammar used by VSCode/Giallo, which is lacking:
+# https://github.com/dustypomerleau/rust-syntax
+extra_themes = ["syntaxes/monokai-classic.json"]
+
+# The theme to use for code highlighting.
+# See https://github.com/getzola/giallo?tab=readme-ov-file#themes for the list of allowed values.
+theme = "monokai-classic"
 
 [extra]
 close_responsive_menu_on_resize = true
