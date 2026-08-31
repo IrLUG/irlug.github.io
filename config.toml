@@ -87,10 +87,12 @@ stylesheets = [
 
 [extra.content_security_policy]
 enable = true
-# Il form della call for talks e' incorporato da LiberaForms: senza questa
-# voce la CSP ricade su `default-src 'self'` e il browser blocca l'iframe.
+
 allowed_domains = [
-    { directive = "frame-src", domains = ["https://my.liberaforms.org"] },
+    # Le icone dei link esterni e dei blocchi NOTE/TIP sono `data:` URI usate
+    # come mask nel CSS: senza questa voce la CSP le blocca. Il tema la
+    # aggiungeva da solo finche' la favicon era un'emoji.
+    { directive = "img-src", domains = ["'self'", "data:"] },
 ]
 
 [extra.responsive_images]
