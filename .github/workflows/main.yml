@@ -35,11 +35,9 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: install_zola
-        # Pinned: zola 0.23 replaced Tera with Tera v2, which drops the
-        # {% import %} tag and macros::name() syntax the theme relies on.
         uses: taiki-e/install-action@v2
         with:
-          tool: zola@0.22.1
+          tool: zola@0.23.4
 
       - name: build_zola
         # Build Zola site into './public' directory

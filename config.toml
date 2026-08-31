@@ -28,6 +28,18 @@ render_emoji = true
 # Whether footnotes are rendered in the GitHub-style (at the bottom, with back references) or plain (in the place, where they are defined)
 bottom_footnotes = true
 
+# CSS class to add to external links, so the theme can mark them with an
+# outbound-link icon.
+external_links_class = "external"
+
+# Whether to set decoding="async" and loading="lazy" for all images.
+# When turned on, the alt text must be plain text.
+lazy_async_image = true
+
+# When set to "true", support for GitHub-style alerts, a.k.a. callouts or
+# admonitions, is enabled in the Markdown parser.
+github_alerts = true
+
 [markdown.highlighting]
 # Whether to use inline hex colours ("inline") or CSS classes ("class").
 # See https://www.getzola.org/documentation/content/syntax-highlighting/ for details.
@@ -44,6 +56,10 @@ theme = "monokai-classic"
 
 [extra]
 color_scheme = "irpinia"
+# Keeps the switcher in the navbar; the theme gates it behind this flag,
+# which defaults to false.
+color_scheme_switcher = true
+header_logo = "img/logo-big.png"
 close_responsive_menu_on_resize = true
 copy_button = true
 favicon_emoji = "👨‍💻"
