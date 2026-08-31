@@ -25,5 +25,4 @@ Hai piacere di portare un tuo talk? Comunicalo qui quanto prima!
 
 > [!TIP]
 > Seguici e resta informato sui nostri eventi:
->
 > [https://irlug.it](https://irlug.it) \| [Twitter](https://twitter.com/irpinialug) \| [Facebook](https://www.facebook.com/IrLUG/) \| [Instagram](https://www.instagram.com/irpinialug/) \| [Telegram IrLUG news](https://t.me/irlug)
