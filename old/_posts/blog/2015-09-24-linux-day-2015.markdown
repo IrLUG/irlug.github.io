@@ -40,6 +40,6 @@ L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo 
     <li><strong>The road to PHP7</strong><br />— Giuseppe Luciano</li>
 </ul>
 
-<a target="_blank" href="{{ "/assets/img/events/locandina-linux-day-2015.jpg" | prepend: site.baseurl }}" style="display: flex; align-items: center; justify-content: center; padding: 20px 0;">
-    <img src="{{ "/assets/img/events/locandina-linux-day-2015.jpg" | prepend: site.baseurl }}" width="400" />
+<a target="_blank" href="{{ "/events/locandina-linux-day-2015.jpg" | prepend: site.img_url }}" style="display: flex; align-items: center; justify-content: center; padding: 20px 0;">
+    <img src="{{ "/events/locandina-linux-day-2015.jpg" | prepend: site.img_url }}" width="400" />
 </a>

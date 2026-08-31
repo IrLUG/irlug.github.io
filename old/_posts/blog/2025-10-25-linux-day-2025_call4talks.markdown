@@ -15,7 +15,7 @@ Sabato 25 ottobre 2025 anche ad Avellino si svolger&agrave; il Linux Day 2025
 
 Hai piacere di portare un tuo talk? [Comunicalo qui quanto prima!](https://forms.gle/9MLdw3BTjtdyZChv6)
 
-![locandina call for talk](https://irlug.it/assets/img/blog/2025Call4Talks.png)
+![locandina call for talk](/img/blog/2025Call4Talks.png)
 
 <hr>
 Durante l'evento chi porter&agrave; il proprio laptop pu&ograve; essere supportato nell'installazione di linux e confrontarsi con la community.

@@ -7,7 +7,7 @@ categories:
 - blog
 - Linux Day
 - Eventi
-img: locandina-linux-day-2023.png
+img: ../events/locandina-linux-day-2023.png
 thumb: thumb01.jpg
 ---
 
@@ -17,7 +17,7 @@ Sabato 26 ottobre 2024 anche ad Avellino si svolger&agrave; il Linux Day 2024
 
 Hai piacere di portare un tuo talk? [Comunicacelo qui quanto prima!](https://forms.gle/JdSAG4xHdoUtajdu6)
 
-![locandina call for talk](https://irlug.it/assets/img/blog/2024callforproposalLD2024.png)
+![locandina call for talk](/img/blog/2024callforproposalLD2024.png)
 
 <hr>
 Durante l'evento chi porter&agrave; il proprio laptop pu&ograve; essere supportato nell'installazione di linux e confrontarsi con la community.

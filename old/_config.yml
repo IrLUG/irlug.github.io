@@ -4,6 +4,11 @@
 title: IrLUG
 description: "irLUG. Irpinia Linux User Group."
 baseurl: "/old" #important: start with /
+
+# Le immagini del sito storico non vivono piu' in old/assets/img/: sono state
+# spostate in static/img/ del sito Zola, che le serve da https://irlug.it/img/.
+# Il sito vecchio le referenzia da li' invece di tenerne una copia duplicata.
+img_url: "/img"
 url: "http://www.irlug.it"
 
 # Build settings

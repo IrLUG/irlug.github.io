@@ -16,4 +16,4 @@ Ecco il link alla cartella google drive ==><a href="https://drive.google.com/dri
 
 <p>Locandina evento</p>
 
-<img src='/assets/img/events/LD19.png' class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/>
+<img src='{{ site.img_url }}/events/LD19.png' class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/>

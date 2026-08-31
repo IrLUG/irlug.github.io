@@ -21,4 +21,4 @@ DEADLINE 12 OTTOBRE
 
 <p>Locandina</p>
 
-<img src='/assets/img/events/LD19Call.jpg' class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/>
+<img src='{{ site.img_url }}/events/LD19Call.jpg' class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/>

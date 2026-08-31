@@ -59,9 +59,9 @@ L'iniziativa si propone, inoltre, di aprire e rendere fruibile a tutti un mondo 
 
 
 <div style="display: flex; align-items: center; justify-content: center; padding: 20px 0;">
-    <a href="/assets/img/events/locandina-linuxday-2017.png" target="_blank"><img src="/assets/img/events/locandina-linuxday-2017.png" class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/></a>
+    <a href="{{ site.img_url }}/events/locandina-linuxday-2017.png" target="_blank"><img src="{{ site.img_url }}/events/locandina-linuxday-2017.png" class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/></a>
 </div>
 
 <div style="display: flex; align-items: center; justify-content: center; padding: 20px 0;">
-    <img src="{{ "/assets/img/linuxday-logo.svg" | prepend: site.baseurl }}" width="150" />
+    <img src="{{ "/linuxday-logo.svg" | prepend: site.img_url }}" width="150" />
 </div>

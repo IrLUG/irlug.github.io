@@ -39,4 +39,4 @@ Il tema di questa edizione è il "World Wild Web" 🌍!
 
 <p>Locandina</p>
 
-<img src='/assets/img/events/locandina-linux-day-2018.jpg' class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/>
+<img src='{{ site.img_url }}/events/locandina-linux-day-2018.jpg' class="img-responsive"  style="margin-top: 20px; margin-bottom: 20px;"/>
