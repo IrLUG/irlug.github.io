@@ -62,7 +62,7 @@ color_scheme_switcher = true
 header_logo = "img/logo-big.png"
 close_responsive_menu_on_resize = true
 copy_button = true
-favicon_emoji = "👨‍💻"
+favicon = "img/logo-big.png"
 layout = "center"
 show_default_author = false
 
