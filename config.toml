@@ -2,7 +2,7 @@
 base_url = "https://irlug.it/"
 
 title = "IrLUG"
-description = "IrLUG è un'associazione senza scopo di lucro nata per diffondere la cultura del free software e dell'open source in Irpinia e dintorni"
+description = "IrLUG è un gruppo di appassionati senza scopo di lucro nato per diffondere la cultura del free software e dell'open source in Irpinia e dintorni"
 
 theme = "terminus"
 
