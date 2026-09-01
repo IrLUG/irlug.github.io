@@ -11,7 +11,7 @@ categories:
 
 Sabato 24 ottobre 2026 anche ad Avellino si svolger&agrave; il Linux Day 2026.
 
-Hai piacere di portare un tuo talk? [Comunicalo qui](https://my.liberaforms.org/call4talk-linux-day-2026-irlug) quanto prima!
+Hai piacere di portare un tuo talk? [Comunicalo qui](https://my.liberaforms.org/call4talk-linuxday2026-irlug) quanto prima!
 
 > [!NOTE]
 > Durante l'evento chi porter&agrave; il proprio laptop pu&ograve; essere supportato nell'installazione di linux e confrontarsi con la community.
