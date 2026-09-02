@@ -4,6 +4,8 @@ title: "Linux Day 2024 Call Proposal"
 date: 2024-09-24 12:36:00
 authors:
 - Hermann
+aliases:
+- "/blog/linux day/eventi/linux-day-2024_call4talk"
 categories:
 - blog
 - Linux Day

@@ -4,6 +4,9 @@ title: "Linux Day 2025 Call for Talks!"
 date: 2025-08-15 11:44:00
 authors:
 - Hermann
+aliases:
+- "/blog/linux day/eventi/linux-day-2025_call4talks"
+- "/blog/linux day/linux-day-2025_call4talks"
 categories:
 - blog
 - Linux Day
