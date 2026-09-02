@@ -94,6 +94,9 @@ allowed_domains = [
     # come mask nel CSS: senza questa voce la CSP le blocca. Il tema la
     # aggiungeva da solo finche' la favicon era un'emoji.
     { directive = "img-src", domains = ["'self'", "data:"] },
+    # Gli iframe incorporati nei post vengono bloccati
+    # se non si elencano qui le origini dei frame.
+    { directive = "frame-src", domains = ["https://www.youtube.com", "https://www.facebook.com"] },
 ]
 
 [extra.responsive_images]
