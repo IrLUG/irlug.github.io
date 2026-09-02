@@ -2,7 +2,8 @@
 layout: post
 title: "Linux Day 2026 Call for Talks!"
 date: 2026-08-31 19:10:00
-author: Hermann
+authors:
+- Hermann
 categories:
 - blog
 - Linux Day

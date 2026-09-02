@@ -2,7 +2,8 @@
 layout: post
 title: "Linux Day 2025 — slides"
 date: 2025-11-10 09:00:00
-author: Antonio Caggiano
+authors:
+- Antonio Caggiano
 categories:
 - Linux Day
 - Eventi

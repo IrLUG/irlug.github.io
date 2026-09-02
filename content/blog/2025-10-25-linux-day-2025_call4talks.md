@@ -2,7 +2,8 @@
 layout: post
 title: "Linux Day 2025 Call for Talks!"
 date: 2025-08-15 11:44:00
-author: Hermann
+authors:
+- Hermann
 categories:
 - blog
 - Linux Day
