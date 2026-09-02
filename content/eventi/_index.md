@@ -5,6 +5,7 @@ sort_by = "date"
 template = "eventi.html"
 page_template = "evento.html"
 insert_anchor_links = "right"
+aliases = ["/ld", "/ld.html", "/linuxday", "/linuxday.html", "/call"]
 +++
 
 # Eventi

@@ -4,6 +4,8 @@ date = "2007-05-05"
 slug = "giornata-della-creativita-giovanile-2007"
 description = "Seminari su GNU/Linux e software libero, install fest e distribuzione di copie di Ubuntu, all'interno di un evento non informatico: una delle prime uscite del LUG fuori dal proprio giro."
 
+aliases = ["/2007/04/24/giornata-della-creativita-giovanile"]
+
 [extra]
 tipo = "Partecipazione"
 data_testo = "sabato 5 maggio 2007"
