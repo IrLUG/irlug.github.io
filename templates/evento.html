@@ -16,11 +16,15 @@
 
 {%- block main -%}
 {%- set e = page.extra %}
+{#- Un evento e' "in programma" finche' la sua data non e' passata rispetto alla build. -#}
+{%- set oggi = now() | date(format="%Y%m%d") | int %}
+{%- set giorno = page.date | date(format="%Y%m%d") | int %}
+{%- set futuro = giorno >= oggi %}
 <article class="post content evento">
     <header>
         <h1 class="post-title">{{ page.title }}</h1>
         <ul class="post-meta">
-            {%- if e.futuro %}
+            {%- if futuro %}
             <li class="draft-label">in programma</li>
             {%- endif %}
             <li>{{ e.tipo }}</li>
@@ -102,7 +106,7 @@
     </ul>
     {%- endif %}
     {%- endfor %}
-    {%- elif not e.futuro %}
+    {%- elif not futuro %}
     <p><small>Il programma di dettaglio non è stato conservato dagli archivi.</small></p>
     {%- endif %}
 

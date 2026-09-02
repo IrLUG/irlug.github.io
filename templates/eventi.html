@@ -20,6 +20,7 @@
 {%- block main -%}
 {%- set mesi = {"01": "gen", "02": "feb", "03": "mar", "04": "apr", "05": "mag", "06": "giu",
                 "07": "lug", "08": "ago", "09": "set", "10": "ott", "11": "nov", "12": "dic"} -%}
+{%- set oggi = now() | date(format="%Y%m%d") | int -%}
 {%- set n_talk = 0 -%}
 {%- for page in section.pages -%}
     {%- set_global n_talk = n_talk + (page.extra.talk | default(value=[]) | length) -%}
@@ -36,6 +37,7 @@
 {%- for page in section.pages %}
 {%- set e = page.extra %}
 {%- set mm = page.date | date(format="%m") %}
+{%- set giorno = page.date | date(format="%Y%m%d") | int %}
 {%- if page.year != anno %}
 {%- if not loop.first %}
     </ul>
@@ -55,7 +57,7 @@
                 {%- if e.tema %} · tema «{{ e.tema }}»{% endif -%}
                 {%- if e.certezza == "parziale" %} · <abbr title="{{ e.incertezza }}">data incerta</abbr>{% endif -%}
             </small>
-            {%- if e.futuro %}
+            {%- if giorno >= oggi %}
             <span class="draft-label">in programma</span>
             {%- endif %}
         </li>
