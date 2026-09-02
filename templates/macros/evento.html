@@ -1,0 +1,23 @@
+{#- Componenti condivisi fra la home (riquadro del prossimo evento) e la pagina
+    di un singolo evento. -#}
+
+{#- Sede e indirizzo di un evento. L'indirizzo rimanda a OpenStreetMap: a un
+    segnaposto sulle coordinate dell'evento, se le dichiara con
+    `coordinate = [lat, lon]`, altrimenti alla ricerca testuale dell'indirizzo.
+    La ricerca e' solo un ripiego: per diverse vie irpine non trova nulla o
+    risponde con l'omonima di un altro comune, quindi ogni evento con un
+    indirizzo dovrebbe avere anche le coordinate. -#}
+{%- component evento.dove(e) -%}
+{{ e.sede }}
+{%- if e.indirizzo %}
+    {%- if e.coordinate %}
+        {%- set lat = e.coordinate[0] %}
+        {%- set lon = e.coordinate[1] %}
+        {%- set url = "https://www.openstreetmap.org/?mlat=" ~ lat ~ "&amp;mlon=" ~ lon ~ "#map=18/" ~ lat ~ "/" ~ lon %}
+    {%- else %}
+        {%- set q = e.indirizzo | urlencode_strict %}
+        {%- set url = "https://www.openstreetmap.org/search?query=" ~ q %}
+    {%- endif %} — <a class="external" href="{{ url | safe }}">{{ e.indirizzo }}</a>
+{%- elif e.citta %} — {{ e.citta }}
+{%- endif %}
+{%- endcomponent evento.dove -%}

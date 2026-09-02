@@ -36,7 +36,7 @@
     <h2 id="prossimo-evento">📅 Prossimo evento: <a href="{{ prossimo.permalink | safe }}">{{ prossimo.title }}</a></h2>
     <p>
         <strong>Quando</strong> <time datetime="{{ prossimo.date }}">{{ e.data_testo }}</time>{% if e.orario %}, {{ e.orario }}{% endif %}<br>
-        <strong>Dove</strong> {{ e.sede }}{% if e.indirizzo %} — {{ e.indirizzo }}{% elif e.citta %} — {{ e.citta }}{% endif %}
+        <strong>Dove</strong> {{ <evento.dove e={e} /> }}
     </p>
     {%- if prossimo.description %}
     <p>{{ prossimo.description | markdown(inline=true) | safe }}</p>

@@ -11,6 +11,7 @@ orario = "dalle 14:00"
 citta = "Solofra"
 sede = "Centro Sociale di Solofra"
 indirizzo = "Via Melito, Solofra"
+coordinate = [40.83617, 14.83335]
 con = ["ALE' — Associazione per la Libera Espressione", "Associazione Floyd", "Legambiente"]
 fonti = ["irlug.it/drupal"]
 +++

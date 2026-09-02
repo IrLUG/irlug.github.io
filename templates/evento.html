@@ -37,7 +37,7 @@
 
     <p>
         <strong>Quando</strong> {{ e.data_testo }}{% if e.orario %}, {{ e.orario }}{% endif %}<br>
-        <strong>Dove</strong> {{ e.sede }}{% if e.indirizzo %} — {{ e.indirizzo }}{% elif e.citta %} — {{ e.citta }}{% endif %}
+        <strong>Dove</strong> {{ <evento.dove e={e} /> }}
         {%- if e.tema %}<br><strong>Tema</strong> {{ e.tema }}{% endif %}
         {%- if e.con %}<br><strong>Con</strong> {{ e.con | join(sep=" · ") }}{% endif %}
         {%- if e.patrocinio %}<br><strong>Patrocinio</strong> {{ e.patrocinio | join(sep=" · ") }}{% endif %}
