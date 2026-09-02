@@ -1,0 +1,156 @@
+{#- Pagina di un singolo evento. I dati strutturati stanno in page.extra,
+    la descrizione e' il corpo markdown della pagina. -#}
+{% extends "base.html" %}
+
+{%- block title -%}
+{{ page.title }} | {{ config.title }}
+{%- endblock -%}
+
+{%- block description -%}
+    {%- if page.description %}
+    <meta name="description" content="{{ page.description | markdown(inline=true) | striptags }}">
+    {%- elif config.description %}
+    <meta name="description" content="{{ config.description }}">
+    {%- endif %}
+{%- endblock -%}
+
+{%- block main -%}
+{%- set e = page.extra %}
+<article class="post content evento">
+    <header>
+        <h1 class="post-title">{{ page.title }}</h1>
+        <ul class="post-meta">
+            {%- if e.futuro %}
+            <li class="draft-label">in programma</li>
+            {%- endif %}
+            <li>{{ e.tipo }}</li>
+            <li role="separator" aria-hidden="true">::</li>
+            <li><time datetime="{{ page.date }}">{{ e.data_testo }}</time></li>
+            <li role="separator" aria-hidden="true">::</li>
+            <li>{{ e.citta }}</li>
+        </ul>
+    </header>
+
+    <p>
+        <strong>Quando</strong> {{ e.data_testo }}{% if e.orario %}, {{ e.orario }}{% endif %}<br>
+        <strong>Dove</strong> {{ e.sede }}{% if e.indirizzo %} — {{ e.indirizzo }}{% elif e.citta %} — {{ e.citta }}{% endif %}
+        {%- if e.tema %}<br><strong>Tema</strong> {{ e.tema }}{% endif %}
+        {%- if e.con %}<br><strong>Con</strong> {{ e.con | join(sep=" · ") }}{% endif %}
+        {%- if e.patrocinio %}<br><strong>Patrocinio</strong> {{ e.patrocinio | join(sep=" · ") }}{% endif %}
+        {%- if e.sponsor %}<br><strong>Sponsor</strong> {{ e.sponsor | join(sep=" · ") }}{% endif %}
+        {%- if e.media_partner %}<br><strong>Media partner</strong> {{ e.media_partner | join(sep=" · ") }}{% endif %}
+    </p>
+
+    {%- if e.certezza == "parziale" %}
+    <section class="alert note" role="note" aria-labelledby="dato-incerto">
+        <div class="alert-icon alert-icon-note"></div>
+        <div class="alert-content" role="presentation">
+            <strong id="dato-incerto" class="alert-title" aria-hidden="true">Dato incerto</strong>
+            <p>{{ e.incertezza }}</p>
+        </div>
+    </section>
+    {%- endif %}
+
+    {%- if e.locandina %}
+    {#- Stessa strategia dello shortcode responsive_image del tema: un srcset
+        con le larghezze configurate, senza mai ingrandire l'originale. -#}
+    {%- set locandina = e.locandina | trim_start(pat="/") %}
+    {%- set meta = get_image_metadata(path=locandina) %}
+    {%- set candidates = [] %}
+    {%- for width in config.extra.responsive_images.widths %}
+        {%- if meta.width >= width %}
+            {%- set resized = resize_image(path=locandina, width=width, op="fit_width", quality=80) %}
+            {%- set_global candidates = [...candidates, resized.url ~ " " ~ width ~ "w"] %}
+        {%- endif %}
+    {%- endfor %}
+    {%- set fallback_width = config.extra.responsive_images.fallback_width %}
+    {%- set fallback = resize_image(path=locandina, width=fallback_width, height=fallback_width, op="fit") %}
+    {%- set fallback_height = (fallback.width / (meta.width / meta.height)) | round(method="floor") | int %}
+    <figure>
+        <a href="{{ get_url(path=locandina | urlencode) | safe }}">
+            <img src="{{ fallback.url | safe }}" alt="Locandina di {{ page.title }}" width="{{ fallback.width }}" height="{{ fallback_height }}"
+                sizes="(min-width: 920px) 784px, (min-width: 700px) calc(82vw + 46px), calc(100vw - 40px)"
+                srcset="{{ candidates | join(sep=", ") | safe }}" loading="lazy" decoding="async">
+        </a>
+        <figcaption>Locandina</figcaption>
+    </figure>
+    {%- endif %}
+
+    {{ page.content | safe }}
+
+    {%- if e.talk %}
+    <h2 id="programma">Programma<a class="post-anchor" href="#programma" aria-label="Link a: programma"><span aria-hidden="true">#</span></a></h2>
+    {%- set_global sezione = "" %}
+    {%- for t in e.talk %}
+    {%- if t.sezione and t.sezione != sezione %}
+    {%- if not loop.first %}
+    </ul>
+    {%- endif %}
+    {%- set_global sezione = t.sezione %}
+    <p><em>{{ t.sezione }}</em></p>
+    <ul>
+    {%- elif loop.first %}
+    <ul>
+    {%- endif %}
+        <li>
+            {%- if t.ora %}{{ t.ora }} · {% endif %}<strong>{{ t.titolo }}</strong>
+            {%- if t.relatori %} — {{ t.relatori | join(sep=", ") }}{% endif %}
+            {%- if t.slide %} <a href="{{ get_url(path=t.slide | trim_start(pat="/") | urlencode) | safe }}">[{% if t.slide_tipo == "video" %}video{% else %}slide{% endif %}]</a>{% endif %}
+            {%- if t.nota %}<br><small><em>{{ t.nota }}</em></small>{% endif %}
+        </li>
+    {%- if loop.last %}
+    </ul>
+    {%- endif %}
+    {%- endfor %}
+    {%- elif not e.futuro %}
+    <p><small>Il programma di dettaglio non è stato conservato dagli archivi.</small></p>
+    {%- endif %}
+
+    {%- if e.foto or e.slide_esterne or e.sito or e.blog %}
+    <h2 id="materiali">Materiali e collegamenti<a class="post-anchor" href="#materiali" aria-label="Link a: materiali e collegamenti"><span aria-hidden="true">#</span></a></h2>
+    <ul>
+        {%- if e.foto %}
+        <li><a href="{{ e.foto | safe }}">Foto della giornata</a> <small>(Flickr)</small></li>
+        {%- endif %}
+        {%- if e.slide_esterne %}
+        <li><a href="{{ e.slide_esterne | safe }}">Slide degli interventi</a> <small>(Google Drive)</small></li>
+        {%- endif %}
+        {%- if e.sito %}
+        <li><a href="{{ e.sito | safe }}">{{ e.sito_etichetta | default(value="Sito dell'evento") | capitalize }}</a></li>
+        {%- endif %}
+        {%- for b in e.blog | default(value=[]) %}
+        {%- set post = get_page(path=b) %}
+        <li>Dal blog: <a href="{{ post.permalink | safe }}">{{ post.title }}</a> <small>({{ post.date | date(format="%d/%m/%Y") }})</small></li>
+        {%- endfor %}
+    </ul>
+    {%- endif %}
+
+    <p><small>Fonti: {{ e.fonti | join(sep=", ") }}{% if e.fonti_esterne %} · {{ e.fonti_esterne | join(sep="; ") }}{% endif %}</small></p>
+</article>
+
+{#- Con sort_by = "date" Zola chiama `lower` la pagina piu' recente e `higher`
+    quella piu' vecchia: qui "precedente" e "successivo" sono in senso cronologico. -#}
+{%- if page.lower or page.higher %}
+<nav class="post-navigation">
+    <header class="post-navigation-title">
+        <h2>Altri eventi</h2>
+        <hr>
+    </header>
+    <div class="post-navigation-buttons">
+        {%- if page.higher %}
+        <a rel="prev" href="{{ page.higher.permalink | safe }}" aria-label="Evento precedente" aria-describedby="prev-title">
+            &lt;&nbsp;[<span id="prev-title">{{ page.higher.title | truncate(length=60, end="…") }}</span>]
+        </a>
+        {%- endif %}
+        {%- if page.lower and page.higher %}
+        <span aria-hidden="true" role="separator">::</span>
+        {%- endif %}
+        {%- if page.lower %}
+        <a rel="next" href="{{ page.lower.permalink | safe }}" aria-label="Evento successivo" aria-describedby="next-title">
+            [<span id="next-title">{{ page.lower.title | truncate(length=60, end="…") }}</span>]&nbsp;&gt;
+        </a>
+        {%- endif %}
+    </div>
+</nav>
+{%- endif %}
+{%- endblock -%}

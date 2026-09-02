@@ -1,0 +1,67 @@
+{#- Elenco di tutti gli eventi, raggruppati per anno dal piu' recente.
+    Riusa le classi .archive-year del tema, pensate per l'archivio del blog.
+    section.pages arriva gia' ordinato per data decrescente (sort_by = "date"):
+    si apre una nuova sezione ogni volta che cambia l'anno, invece di usare
+    group_by, che restituisce una mappa senza ordine. -#}
+{% extends "base.html" %}
+
+{%- block title -%}
+{{ section.title }} | {{ config.title }}
+{%- endblock -%}
+
+{%- block description -%}
+    {%- if section.description %}
+    <meta name="description" content="{{ section.description | markdown(inline=true) | striptags }}">
+    {%- elif config.description %}
+    <meta name="description" content="{{ config.description }}">
+    {%- endif %}
+{%- endblock -%}
+
+{%- block main -%}
+{%- set mesi = {"01": "gen", "02": "feb", "03": "mar", "04": "apr", "05": "mag", "06": "giu",
+                "07": "lug", "08": "ago", "09": "set", "10": "ott", "11": "nov", "12": "dic"} -%}
+{%- set n_talk = 0 -%}
+{%- for page in section.pages -%}
+    {%- set_global n_talk = n_talk + (page.extra.talk | default(value=[]) | length) -%}
+{%- endfor %}
+
+{%- if section.content %}
+<header class="content">
+    {{ section.content | safe }}
+    <p><small>{{ section.pages | length }} eventi · {{ n_talk }} interventi</small></p>
+</header>
+{%- endif %}
+
+{%- set_global anno = 0 %}
+{%- for page in section.pages %}
+{%- set e = page.extra %}
+{%- set mm = page.date | date(format="%m") %}
+{%- if page.year != anno %}
+{%- if not loop.first %}
+    </ul>
+</section>
+{%- endif %}
+{%- set_global anno = page.year %}
+<section class="archive-year">
+    <h2 id="{{ anno }}"><time>{{ anno }}</time><a class="post-anchor" href="#{{ anno }}" aria-label="Eventi del {{ anno }}"><span aria-hidden="true">#</span></a></h2>
+    <ul>
+{%- endif %}
+        <li>
+            <time datetime="{{ page.date }}" title="{{ e.data_testo }}">{{ page.date | date(format="%d") }} {{ mesi[mm] }}</time>
+            <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+            <small>
+                {%- if page.title is not containing(pat=e.tipo) %}{{ e.tipo }} · {% endif -%}
+                {{ e.citta }}
+                {%- if e.tema %} · tema «{{ e.tema }}»{% endif -%}
+                {%- if e.certezza == "parziale" %} · <abbr title="{{ e.incertezza }}">data incerta</abbr>{% endif -%}
+            </small>
+            {%- if e.futuro %}
+            <span class="draft-label">in programma</span>
+            {%- endif %}
+        </li>
+{%- if loop.last %}
+    </ul>
+</section>
+{%- endif %}
+{%- endfor %}
+{%- endblock -%}
