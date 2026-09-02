@@ -72,7 +72,7 @@ main_menu = [
 ]
 
 socials = [
-    { name = "email", url = "mailto:irlug@proton.me" },
+    { name = "email", url = "mailto:info@irlug.it" },
     { name = "github", url = "https://github.com/irlug" },
     { name = "youtube", url = "https://www.youtube.com/channel/UCg0SEu8SEFB9bh72WfYL_Vg" },
     { name = "instagram", url = "https://www.instagram.com/irpinialug/" },
