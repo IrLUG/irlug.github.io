@@ -69,6 +69,7 @@ show_default_author = false
 main_menu = [
     { name = "blog", url = "blog", trailing_slash = true },
     { name = "eventi", url = "eventi", trailing_slash = true },
+    { name = "privacy", url = "privacy", trailing_slash = true },
     { name = "old", url = "/old", new_tab = true },
 ]
 

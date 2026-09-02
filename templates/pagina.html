@@ -1,0 +1,30 @@
+{#- Pagina singola fuori dal blog (privacy e simili): solo titolo e testo,
+    senza data, autore e tempo di lettura. -#}
+{% extends "base.html" %}
+
+{%- block title -%}
+{{ page.title }} | {{ config.title }}
+{%- endblock -%}
+
+{%- block description -%}
+    {%- if page.description %}
+    <meta name="description" content="{{ page.description | markdown(inline=true) | striptags }}">
+    {%- elif config.description %}
+    <meta name="description" content="{{ config.description }}">
+    {%- endif %}
+{%- endblock -%}
+
+{%- block main -%}
+{%- filter indent(width=8) | safe -%}
+<article class="post content">
+    <header>
+        <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+{%- endfilter %}
+
+{{ page.content | safe }}
+
+{%- filter indent(width=8) | safe %}
+</article>
+{% endfilter %}
+{%- endblock -%}
