@@ -8,8 +8,6 @@ insert_anchor_links = "right"
 aliases = ["/ld", "/ld.html", "/linuxday", "/linuxday.html", "/call"]
 +++
 
-# Eventi
-
 Tutti gli eventi che l'IrLUG ha organizzato, o a cui ha partecipato, dal 2004
 a oggi. Ogni evento ha una pagina con data, sede, programma, relatori e, dove
 esistono, locandina, foto e slide.

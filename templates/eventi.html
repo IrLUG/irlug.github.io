@@ -28,6 +28,7 @@
 
 {%- if section.content %}
 <header class="content">
+    <h1 class="post-title">{{ section.title }}</h1>
     {{ section.content | safe }}
     <p><small>{{ section.pages | length }} eventi · {{ n_talk }} interventi</small></p>
 </header>
