@@ -1,0 +1,43 @@
+{#- Pagina di rimando a un'altra pagina del sito, per avere URL fissi come
+    /linuxday e /call4talk che seguono da soli l'edizione piu' recente senza
+    dover spostare un alias ogni anno. La pagina che usa questo template
+    dichiara in [extra]:
+      sezione = percorso della sezione in cui cercare, es. "eventi/_index.md"
+      parola  = testo che il titolo deve contenere (maiuscole indifferenti)
+    section.pages arriva ordinato per data decrescente (sort_by = "date"),
+    quindi la prima pagina che corrisponde e' la piu' recente, anche se ha
+    una data futura. Se nessuna corrisponde la build fallisce.
+    Il markup ricalca quello che Zola genera per gli alias: JavaScript per
+    conservare l'eventuale #ancora, meta refresh come ripiego. -#}
+{%- set sezione = get_section(path=page.extra.sezione) -%}
+{%- set parola = page.extra.parola | lower -%}
+{%- set_global destinazione = false -%}
+{%- for p in sezione.pages -%}
+    {%- set titolo = p.title | lower -%}
+    {%- if titolo is containing(pat=parola) -%}
+        {%- set_global destinazione = p -%}
+        {%- break -%}
+    {%- endif -%}
+{%- endfor -%}
+{%- if not destinazione -%}
+    {{ throw(message="Nessuna pagina in " ~ page.extra.sezione ~ " ha «" ~ page.extra.parola ~ "» nel titolo, " ~ page.relative_path ~ " non sa dove rimandare") }}
+{%- endif -%}
+{%- set url = destinazione.permalink -%}
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>{{ destinazione.title }} | {{ config.title }}</title>
+    <link rel="canonical" href="{{ url | safe }}">
+    <meta name="robots" content="noindex">
+    <script>
+        window.location.replace("{{ url | safe }}" + window.location.hash);
+    </script>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url={{ url | safe }}">
+    </noscript>
+</head>
+<body>
+    <p>Ti stiamo portando a <a href="{{ url | safe }}">{{ destinazione.title }}</a>.</p>
+</body>
+</html>

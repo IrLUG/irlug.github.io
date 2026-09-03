@@ -5,7 +5,6 @@ sort_by = "date"
 template = "eventi.html"
 page_template = "evento.html"
 insert_anchor_links = "right"
-aliases = ["/ld", "/ld.html", "/linuxday", "/linuxday.html", "/call"]
 +++
 
 Tutti gli eventi che l'IrLUG ha organizzato, o a cui ha partecipato, dal 2004
